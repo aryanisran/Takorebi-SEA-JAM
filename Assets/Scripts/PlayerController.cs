@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
             isBuilding = true;
             prevFrame = true;
             //Round the x and y of the platform to the nearest 0.5 so it's in line with the grid
-            float roundedX = Mathf.Round((transform.position.x + 1) * 2) / 2;
+            float roundedX = Mathf.Round((transform.position.x) * 2) / 2;
             float roundedY = Mathf.Round((transform.position.y) * 2) / 2;
             guide = Instantiate(guidePrefab, new Vector3(roundedX, roundedY, 0), Quaternion.identity);
         }
