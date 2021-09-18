@@ -16,10 +16,11 @@ public class Lamp : MonoBehaviour
     public LayerMask viewMask;
     Transform player;
 
+    PlayerController the_player;
 
     void Start()
     {
-        //player = FindObjectOfType<PlayerController>();
+        the_player = FindObjectOfType<PlayerController>();
         viewAngle = spotlight.spotAngle;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody>();
@@ -43,7 +44,7 @@ public class Lamp : MonoBehaviour
     {
         rb.useGravity = true;
         yield return new WaitForSeconds(0.5f);
-        //player.Die();
+        the_player.Die();
         print("game over");
 
     }
