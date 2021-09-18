@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    Rigidbody rb;
+    public Rigidbody rb;
     SpriteRenderer sr;
     Animator anim;
     Vector2 moveInput;
-    [SerializeField] float moveSpeed, jumpForce, jumpTime, groundCheckRadius , groundCheckDistance;
+    [SerializeField] public float moveSpeed, jumpForce, jumpTime, groundCheckRadius , groundCheckDistance;
 
-    bool isGrounded, isJumping;
+    public bool isGrounded, isJumping;
     float maxJumpTime;
     [SerializeField] LayerMask realGround;
 
@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         #region Movement
         if (!oldEli.isBuilding)
         {
