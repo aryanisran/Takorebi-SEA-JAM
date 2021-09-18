@@ -12,10 +12,13 @@ public class Guard : MonoBehaviour
     float dist;
 
     [SerializeField] Light spotlight;
-    public float viewDistance;
+    Color originalColor;
+    public float viewDistance, timeToSpotPlayer, flashDuration;
     float viewAngle;
+    float playerVisibleTimer;
     public LayerMask viewMask;
     Transform player;
+    public bool flashed;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +27,7 @@ public class Guard : MonoBehaviour
         waypointIndex = 0;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         viewAngle = spotlight.spotAngle;
+        originalColor = spotlight.color;
     }
 
     // Update is called once per frame
@@ -34,15 +38,25 @@ public class Guard : MonoBehaviour
         {
             IncreaseIndex();
         }
-        if (CanSeePlayer())
+        if (!flashed)
         {
-            spotlight.color = Color.red;
-            rb.velocity = Vector3.zero;
-        }
-        else
-        {
-            spotlight.color = Color.white;
-            Patrol();
+            if (CanSeePlayer())
+            {
+                playerVisibleTimer += Time.deltaTime;
+                rb.velocity = Vector3.zero;
+            }
+            else
+            {
+                playerVisibleTimer -= Time.deltaTime;
+                Patrol();
+            }
+            playerVisibleTimer = Mathf.Clamp(playerVisibleTimer, 0, timeToSpotPlayer);
+            spotlight.color = Color.Lerp(originalColor, Color.red, playerVisibleTimer);
+
+            if(playerVisibleTimer >= timeToSpotPlayer)
+            {
+                //Do player spotted stuff, game over
+            }
         }
     }
 
@@ -66,6 +80,10 @@ public class Guard : MonoBehaviour
 
     bool CanSeePlayer()
     {
+        if (flashed)
+        {
+            return false;
+        }
         Vector3 offset = player.position - transform.position;
         if(offset.sqrMagnitude <= viewDistance)
         {
@@ -79,5 +97,28 @@ public class Guard : MonoBehaviour
             }
         }
         return false;
+    }
+
+    public void CheckFlashed(Vector3 flashPos)
+    {
+        Vector3 offset = flashPos - transform.position;
+        if (offset.sqrMagnitude <= viewDistance)
+        {
+            float angleBetweenGuardAndPlayer = Vector3.Angle(spotlight.transform.forward, offset.normalized);
+            if (angleBetweenGuardAndPlayer < viewAngle / 2f)
+            {
+                if (!Physics.Linecast(transform.position, flashPos, viewMask))
+                {
+                    flashed = true;
+                    StartCoroutine("FlashedCo");
+                }
+            }
+        }
+    }
+
+    IEnumerator FlashedCo()
+    {
+        yield return new WaitForSeconds(flashDuration);
+        flashed = false;
     }
 }

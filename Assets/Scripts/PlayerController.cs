@@ -119,7 +119,7 @@ public class PlayerController : MonoBehaviour
     {
         if (oldEli.enabled)
         {
-            if (!oldEli.isBuilding)
+            if (oldEli.isBuilding)
             {
                 return false;
             }
