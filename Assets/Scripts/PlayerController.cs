@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour
     Vector2 moveInput;
     [SerializeField] public float moveSpeed, jumpForce, jumpTime, groundCheckRadius , groundCheckDistance;
 
+    [SerializeField] GameObject blackScreen;
+
     public bool isGrounded, isJumping;
     float maxJumpTime;
     [SerializeField] LayerMask realGround;
@@ -132,5 +134,25 @@ public class PlayerController : MonoBehaviour
             }
         }
         return true;
+    }
+
+    public IEnumerator Death()
+    {
+        if (oldEli.isActiveAndEnabled)
+        {
+            //death animation
+            yield return new WaitForSeconds(1f);
+            blackScreen.GetComponent<Animator>().SetTrigger("Die");
+            Respawn();
+        }
+    }
+    public void Die()
+    {
+        StartCoroutine(Death());
+    }
+
+    public void Respawn()
+    {
+
     }
 }
