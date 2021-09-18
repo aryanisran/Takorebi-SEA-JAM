@@ -4,16 +4,20 @@ using UnityEngine;
 
 public class CameraTracking : MonoBehaviour
 {
-    [SerializeField] Transform target;
+    Transform target;
+    Vector3 offset;
+    public float smoothSpeed = 0.15f;
     // Start is called before the first frame update
     void Start()
     {
-        
+        target = GameObject.FindGameObjectWithTag("Player").transform;
+        offset = transform.position - target.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(target.position.x, transform.position.y, transform.position.z);
+        Vector3 targetPos = target.position + offset;
+        transform.position = Vector3.Lerp(transform.position, targetPos, smoothSpeed);
     }
 }
