@@ -13,6 +13,7 @@ public class OldEli : MonoBehaviour
     {
         canBuild = true;
         player = GetComponent<PlayerController>();
+        player.moveSpeed = 2.5f;
     }
 
     // Update is called once per frame
