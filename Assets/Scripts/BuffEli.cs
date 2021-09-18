@@ -8,8 +8,11 @@ public class BuffEli : MonoBehaviour
 
     public Transform kickDirection;
     public bool kicking;
+    public bool slamming;
+
     bool currentlySlow;
     public bool canKick;
+    public bool canSlam = true;
 
     bool lethal;
 
@@ -21,11 +24,20 @@ public class BuffEli : MonoBehaviour
     void Start()
     {
         player = GetComponent<PlayerController>();
+        player.moveSpeed = 5f;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (canSlam && !kicking && player.isGrounded)
+        {
+            if (Input.GetKeyDown(KeyCode.X))
+            {
+                StartCoroutine(Slam());
+            }
+        }
+
         if(!player.isGrounded)
         {
             canKick = true;
@@ -38,6 +50,7 @@ public class BuffEli : MonoBehaviour
         else
         {
             canKick = false;
+            kicking = false;
         }
 
         if (this.transform.position.y > 2f && this.transform.position.y < 3.5f && kicking == true && canKick == false)
@@ -52,18 +65,24 @@ public class BuffEli : MonoBehaviour
             Time.timeScale = 1f;
             //print("time stopped slowing");
         }
+
+
+
+        if (kicking || slamming)
+        {
+            lethal = true;
+        }
+        else
+        {
+            lethal = false;
+        }
     }
 
     public IEnumerator Kick()
     {
-        //player.moveSpeed = 0f;
-        canKick = false;
         kicking = true;
         KickMotion();
         yield return new WaitForSeconds(kickCooldown);
-        canKick = true;
-        kicking = false;
-        //player.moveSpeed = 3f;
     }
 
     public void KickMotion()
@@ -72,4 +91,19 @@ public class BuffEli : MonoBehaviour
         player.rb.velocity = new Vector3(player.directionFacing * kickSpeed * (9 / 4), -kickSpeed, player.rb.velocity.z);
         //player.rb.AddForce(this.transform.up * -kickSpeed);
     }
+
+    public IEnumerator Slam()
+    {
+        print("slam");
+        canSlam = false;
+        player.moveSpeed = 0f;
+        player.jumpForce = 0f;
+        //play the animation here
+        slamming = true;
+        yield return new WaitForSeconds(2f);
+        canSlam = true;
+        slamming = false;
+        player.jumpForce = 5f;
+        player.moveSpeed = 3f;
+    }    
 }
