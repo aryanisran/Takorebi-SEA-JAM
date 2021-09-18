@@ -209,9 +209,12 @@ MonoBehaviour:
   moveSpeed: 2
   spotlight: {fileID: 172978607}
   viewDistance: 2.5
+  timeToSpotPlayer: 0
+  flashDuration: 0
   viewMask:
     serializedVersion: 2
     m_Bits: 0
+  flashed: 0
 --- !u!1 &172978605
 GameObject:
   m_ObjectHideFlags: 0
@@ -1154,7 +1157,7 @@ GameObject:
   - component: {fileID: 1607396167}
   - component: {fileID: 1607396168}
   - component: {fileID: 1607396169}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1239,7 +1242,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1607396163}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f2845e97d97ae541a55871cb3750cbb, type: 3}
   m_Name: 
@@ -1256,7 +1259,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1607396163}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c1990716689b1154d991672e0310b4c7, type: 3}
   m_Name: 
@@ -1478,7 +1481,7 @@ MonoBehaviour:
   viewDistance: 11
   viewMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
 --- !u!54 &1832765656
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1745,10 +1748,10 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0, b: 0.077605724, a: 1}
-  m_Intensity: 28.11
-  m_Range: 5.57
-  m_SpotAngle: 69.7717
-  m_InnerSpotAngle: 22.929266
+  m_Intensity: 101.47
+  m_Range: 4.3
+  m_SpotAngle: 24.09782
+  m_InnerSpotAngle: 0
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
