@@ -8,12 +8,12 @@ public class Lamp : MonoBehaviour
     Rigidbody rb;
     [SerializeField] GameObject lamp;
 
-    float fallSpeed = 10f;
+    //float fallSpeed = 10f;
     bool inside;
     // Start is called before the first frame update
     void Start()
     {
-        player = GetComponent<PlayerController>();
+        player = FindObjectOfType<PlayerController>();
         rb = GetComponentInParent<Rigidbody>();
     }
 
@@ -28,16 +28,9 @@ public class Lamp : MonoBehaviour
         if (other == player)
         {
             //player.Die();
-            StartCoroutine(Fall());
+            rb.useGravity = true;
         }
     }
 
-    public IEnumerator Fall()
-    {
-        rb.velocity = new Vector3(0, -fallSpeed, 0);
-        yield return new WaitForSeconds(1f);
-        lamp.gameObject.SetActive(false);
-        this.gameObject.SetActive(false);
-    }
 
 }
