@@ -137,11 +137,11 @@ GameObject:
   - component: {fileID: 3321557}
   m_Layer: 0
   m_Name: Guard
-  m_TagString: Untagged
+  m_TagString: Guard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!54 &3321554
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -206,11 +206,11 @@ MonoBehaviour:
   - {fileID: 2017053966}
   - {fileID: 1192998579}
   - {fileID: 898503009}
-  moveSpeed: 2
+  moveSpeed: 1
   spotlight: {fileID: 172978607}
   viewDistance: 2.5
-  timeToSpotPlayer: 0
-  flashDuration: 0
+  timeToSpotPlayer: 3
+  flashDuration: 3
   viewMask:
     serializedVersion: 2
     m_Bits: 0
@@ -260,8 +260,8 @@ Light:
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 10
   m_Range: 3
-  m_SpotAngle: 91
-  m_InnerSpotAngle: 76
+  m_SpotAngle: 120
+  m_InnerSpotAngle: 100
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -1252,6 +1252,8 @@ MonoBehaviour:
   canBuild: 0
   guidePrefab: {fileID: 527512593355499770, guid: c1f62e2dda378ff448bda99822899337, type: 3}
   platformPrefab: {fileID: 1628967780685730227, guid: b07e7a7f93845934d84dc33772427eff, type: 3}
+  flashbangPrefab: {fileID: 4333759140894286639, guid: 7e76c209758a2c740a0c86f54ba000d4, type: 3}
+  flashCount: 1
 --- !u!114 &1607396169
 MonoBehaviour:
   m_ObjectHideFlags: 0

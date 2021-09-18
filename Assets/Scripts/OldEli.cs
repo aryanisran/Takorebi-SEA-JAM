@@ -6,8 +6,9 @@ public class OldEli : MonoBehaviour
 {
     PlayerController player;
     public bool isBuilding, prevFrame, canBuild;
-    public GameObject guidePrefab, platformPrefab;
+    public GameObject guidePrefab, platformPrefab, flashbangPrefab;
     GameObject guide, platform;
+    public int flashCount;
     // Start is called before the first frame update
     void Start()
     {
@@ -74,6 +75,7 @@ public class OldEli : MonoBehaviour
             }
         }
         #endregion
+        Flashbang();
     }
 
 
@@ -81,5 +83,14 @@ public class OldEli : MonoBehaviour
     {
         yield return new WaitForSeconds(5f);
         canBuild = true;
+    }
+
+    void Flashbang()
+    {
+        if (Input.GetKeyDown(KeyCode.Z) && flashCount > 0)
+        {
+            Instantiate(flashbangPrefab, transform.position + Vector3.back * 0.2f, Quaternion.identity);
+            flashCount--;
+        }
     }
 }
