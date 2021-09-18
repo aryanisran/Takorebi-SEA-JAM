@@ -904,6 +904,7 @@ GameObject:
   - component: {fileID: 1607396165}
   - component: {fileID: 1607396164}
   - component: {fileID: 1607396167}
+  - component: {fileID: 1607396168}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -977,6 +978,21 @@ MonoBehaviour:
   realGround:
     serializedVersion: 2
     m_Bits: 1
+--- !u!114 &1607396168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607396163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f2845e97d97ae541a55871cb3750cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isBuilding: 0
+  prevFrame: 0
+  canBuild: 0
   guidePrefab: {fileID: 527512593355499770, guid: c1f62e2dda378ff448bda99822899337, type: 3}
   platformPrefab: {fileID: 1628967780685730227, guid: b07e7a7f93845934d84dc33772427eff, type: 3}
 --- !u!1 &1631373716
