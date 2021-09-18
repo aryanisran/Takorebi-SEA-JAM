@@ -7,7 +7,7 @@ public class BuffEli : MonoBehaviour
     PlayerController player;
 
     public Transform kickDirection;
-    bool kicking;
+    public bool kicking;
     bool currentlySlow;
     public bool canKick;
 
@@ -69,7 +69,7 @@ public class BuffEli : MonoBehaviour
     public void KickMotion()
     {
         print("high jump kick!!!!");
-        player.rb.velocity = new Vector3(kickSpeed, -kickSpeed);
+        player.rb.velocity = new Vector3(player.directionFacing * kickSpeed * (9 / 4), -kickSpeed, player.rb.velocity.z);
         //player.rb.AddForce(this.transform.up * -kickSpeed);
     }
 }

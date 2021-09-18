@@ -15,6 +15,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField] LayerMask realGround;
 
     OldEli oldEli;
+    BuffEli buffEli;
+
+    public int directionFacing;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +27,7 @@ public class PlayerController : MonoBehaviour
         maxJumpTime = jumpTime;
 
         oldEli = GetComponent<OldEli>();
+        buffEli = GetComponent<BuffEli>();
     }
 
     // Update is called once per frame
@@ -43,12 +47,14 @@ public class PlayerController : MonoBehaviour
                 //anim.SetBool("FlipDir", true);
                 //anim.SetTrigger("Flip");
                 sr.flipX = true;
+                directionFacing = -1;
             }
             else if (moveInput.x > 0)
             {
                 //anim.SetBool("FlipDir", false);
                 //anim.SetTrigger("Flip");
                 sr.flipX = false;
+                directionFacing = 1;
             }
 
             //Set walking animation when we move in x or z direction, set back to idle when we're not moving
@@ -101,11 +107,30 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         //Set movement based on input
-        if (!oldEli.isBuilding)
+        if (CanMoveCheck())
         {
             rb.velocity = new Vector3(moveInput.x, rb.velocity.y, moveInput.y);
         }
         //Read vertical speed and send it to animator
         anim.SetFloat("dY", rb.velocity.y);
+    }
+
+    bool CanMoveCheck()
+    {
+        if (oldEli.enabled)
+        {
+            if (!oldEli.isBuilding)
+            {
+                return false;
+            }
+        }
+        else if (buffEli.enabled)
+        {
+            if (buffEli.kicking)
+            {
+                return false;
+            }
+        }
+        return true;
     }
 }

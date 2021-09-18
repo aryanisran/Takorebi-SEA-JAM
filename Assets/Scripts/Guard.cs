@@ -34,7 +34,6 @@ public class Guard : MonoBehaviour
         {
             IncreaseIndex();
         }
-        Debug.Log(CanSeePlayer());
         if (CanSeePlayer())
         {
             spotlight.color = Color.red;
