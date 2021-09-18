@@ -1,0 +1,876 @@
+fileFormatVersion: 2
+guid: b13f27459d6c4b446a0679587f7b9e7e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 42095245260654956
+    second: ElizYoung_Idle_SS_0
+  - first:
+      213: 1968597508149869780
+    second: ElizYoung_Idle_SS_1
+  - first:
+      213: 2952976663048072497
+    second: ElizYoung_Idle_SS_2
+  - first:
+      213: -8765228031800708295
+    second: ElizYoung_Idle_SS_3
+  - first:
+      213: 2517234383774962169
+    second: ElizYoung_Idle_SS_4
+  - first:
+      213: 1572902796415946839
+    second: ElizYoung_Idle_SS_5
+  - first:
+      213: 5705005583222117127
+    second: ElizYoung_Idle_SS_6
+  - first:
+      213: 3998260633743068050
+    second: ElizYoung_Idle_SS_7
+  - first:
+      213: 7754243263475615706
+    second: ElizYoung_Idle_SS_8
+  - first:
+      213: -4716650543723232664
+    second: ElizYoung_Idle_SS_9
+  - first:
+      213: -6744244302167019646
+    second: ElizYoung_Idle_SS_10
+  - first:
+      213: 5235571001627677845
+    second: ElizYoung_Idle_SS_11
+  - first:
+      213: -7610623658895348782
+    second: ElizYoung_Idle_SS_12
+  - first:
+      213: -1816263642639939245
+    second: ElizYoung_Idle_SS_13
+  - first:
+      213: -1506145697902661052
+    second: ElizYoung_Idle_SS_14
+  - first:
+      213: 5081374421699789291
+    second: ElizYoung_Idle_SS_15
+  - first:
+      213: -3210273483724470255
+    second: ElizYoung_Idle_SS_16
+  - first:
+      213: 6731442838963329021
+    second: ElizYoung_Idle_SS_17
+  - first:
+      213: -3501398421392080340
+    second: ElizYoung_Idle_SS_18
+  - first:
+      213: 3645222539274829960
+    second: ElizYoung_Idle_SS_19
+  - first:
+      213: 4858558974589517975
+    second: ElizYoung_Idle_SS_20
+  - first:
+      213: -8066991099267542789
+    second: ElizYoung_Idle_SS_21
+  - first:
+      213: -2105018112702194770
+    second: ElizYoung_Idle_SS_22
+  - first:
+      213: -1044261419842205631
+    second: ElizYoung_Idle_SS_23
+  - first:
+      213: -4294315113432167342
+    second: ElizYoung_Idle_SS_24
+  - first:
+      213: -5239784203283977524
+    second: ElizYoung_Idle_SS_25
+  - first:
+      213: -4344462056687472498
+    second: ElizYoung_Idle_SS_26
+  - first:
+      213: 6017772615472666167
+    second: ElizYoung_Idle_SS_27
+  - first:
+      213: -2912153289411534812
+    second: ElizYoung_Idle_SS_28
+  - first:
+      213: 9140430271357945047
+    second: ElizYoung_Idle_SS_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11745
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c698e7c076d859000800000000000000
+      internalID: 42095245260654956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11340
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcfdfae00dd15b10800000000000000
+      internalID: 1968597508149869780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10935
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13daff621a41bf820800000000000000
+      internalID: 2952976663048072497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10530
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933f8359b87ab5680800000000000000
+      internalID: -8765228031800708295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10125
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f15e4dc5530fe220800000000000000
+      internalID: 2517234383774962169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9720
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750579e72c214d510800000000000000
+      internalID: 1572902796415946839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9315
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703139df9504c2f40800000000000000
+      internalID: 5705005583222117127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8910
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b0fa9dcdcac7730800000000000000
+      internalID: 3998260633743068050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8505
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad70e651a2b9c9b60800000000000000
+      internalID: 7754243263475615706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8100
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86249b302571b8eb0800000000000000
+      internalID: -4716650543723232664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7695
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28fe1ea2a81a762a0800000000000000
+      internalID: -6744244302167019646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7290
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5949a54361c78a840800000000000000
+      internalID: 5235571001627677845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6885
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbeb54ea12a16690800000000000000
+      internalID: -7610623658895348782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6480
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3594df907d55bc6e0800000000000000
+      internalID: -1816263642639939245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6075
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4427788b778191be0800000000000000
+      internalID: -1506145697902661052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5670
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be10c204d1ba48640800000000000000
+      internalID: 5081374421699789291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5265
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1184fba7641d273d0800000000000000
+      internalID: -3210273483724470255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4860
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df7914ae893ea6d50800000000000000
+      internalID: 6731442838963329021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4455
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22cfcbdfa8886fc0800000000000000
+      internalID: -3501398421392080340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4050
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88049b4169e669230800000000000000
+      internalID: 3645222539274829960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3645
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790c1b845a11d6340800000000000000
+      internalID: 4858558974589517975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf09be1065a4c0090800000000000000
+      internalID: -8066991099267542789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2835
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab5f9aed2979c2e0800000000000000
+      internalID: -2105018112702194770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2430
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14809a975c90281f0800000000000000
+      internalID: -1044261419842205631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2025
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cc84618278764c0800000000000000
+      internalID: -4294315113432167342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1620
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca2e87570c8847b0800000000000000
+      internalID: -5239784203283977524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1215
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80faf207ce55b3c0800000000000000
+      internalID: -4344462056687472498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736525c6f4c638350800000000000000
+      internalID: 6017772615472666167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 405
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420e3253304f597d0800000000000000
+      internalID: -2912153289411534812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Idle_SS_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 259
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4848a57e459de70800000000000000
+      internalID: 9140430271357945047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,771 @@
+fileFormatVersion: 2
+guid: 1b47d19d14ab0b640973f0b9ff11d086
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3368356418069269966
+    second: ElizYoung_Jump_SS_0
+  - first:
+      213: 4887535845225714243
+    second: ElizYoung_Jump_SS_1
+  - first:
+      213: -5778524024031167902
+    second: ElizYoung_Jump_SS_2
+  - first:
+      213: 116037188891009446
+    second: ElizYoung_Jump_SS_3
+  - first:
+      213: -1619615576424227592
+    second: ElizYoung_Jump_SS_4
+  - first:
+      213: -6081032888052709946
+    second: ElizYoung_Jump_SS_5
+  - first:
+      213: 3758273160446655123
+    second: ElizYoung_Jump_SS_6
+  - first:
+      213: 8991265481572991680
+    second: ElizYoung_Jump_SS_7
+  - first:
+      213: 7906016121295927368
+    second: ElizYoung_Jump_SS_8
+  - first:
+      213: 7200896890413435703
+    second: ElizYoung_Jump_SS_9
+  - first:
+      213: -3881494872102148202
+    second: ElizYoung_Jump_SS_10
+  - first:
+      213: -4040266594276774926
+    second: ElizYoung_Jump_SS_11
+  - first:
+      213: 5323387441632264652
+    second: ElizYoung_Jump_SS_12
+  - first:
+      213: -9178178947940056687
+    second: ElizYoung_Jump_SS_13
+  - first:
+      213: -7263545621438106589
+    second: ElizYoung_Jump_SS_14
+  - first:
+      213: 5707630298425925831
+    second: ElizYoung_Jump_SS_15
+  - first:
+      213: -9096910976303232328
+    second: ElizYoung_Jump_SS_16
+  - first:
+      213: 2044413224179083427
+    second: ElizYoung_Jump_SS_17
+  - first:
+      213: -526807019724733565
+    second: ElizYoung_Jump_SS_18
+  - first:
+      213: 7208313399315920397
+    second: ElizYoung_Jump_SS_19
+  - first:
+      213: 1680660634482691589
+    second: ElizYoung_Jump_SS_20
+  - first:
+      213: -4643168330799887820
+    second: ElizYoung_Jump_SS_21
+  - first:
+      213: -8298532416824963581
+    second: ElizYoung_Jump_SS_22
+  - first:
+      213: -5561579514145696112
+    second: ElizYoung_Jump_SS_23
+  - first:
+      213: -6730120091809925950
+    second: ElizYoung_Jump_SS_24
+  - first:
+      213: -6886097673353658661
+    second: ElizYoung_Jump_SS_25
+  - first:
+      213: 2668500756884524106
+    second: ElizYoung_Jump_SS_26
+  - first:
+      213: 4549012622394235438
+    second: ElizYoung_Jump_SS_27
+  - first:
+      213: -1021817029703350055
+    second: ElizYoung_Jump_SS_28
+  - first:
+      213: -1267235247938996615
+    second: ElizYoung_Jump_SS_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12048
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232f2102fa13141d0800000000000000
+      internalID: -3368356418069269966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11546
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342daa9b4f304d340800000000000000
+      internalID: 4887535845225714243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11044
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26abf8d140f8ecfa0800000000000000
+      internalID: -5778524024031167902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10542
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a16590653f3c9100800000000000000
+      internalID: 116037188891009446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10040
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc5b8ed638f589e0800000000000000
+      internalID: -1619615576424227592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9538
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c586289ec4db9ba0800000000000000
+      internalID: -6081032888052709946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9036
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39abe49f681182430800000000000000
+      internalID: 3758273160446655123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8534
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2c366515467cc70800000000000000
+      internalID: 8991265481572991680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8032
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848fa5246cfc7bd60800000000000000
+      internalID: 7906016121295927368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7530
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bce41e199bee360800000000000000
+      internalID: 7200896890413435703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7028
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697e9d69af8222ac0800000000000000
+      internalID: -3881494872102148202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6526
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb614250f61ee7c0800000000000000
+      internalID: -4040266594276774926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6024
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc144447ca870e940800000000000000
+      internalID: 5323387441632264652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5522
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191801bffde80a080800000000000000
+      internalID: -9178178947940056687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5020
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3247650cdb3b23b90800000000000000
+      internalID: -7263545621438106589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4518
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c02fee1483953f40800000000000000
+      internalID: 5707630298425925831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4016
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba08102aa741c180800000000000000
+      internalID: -9096910976303232328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3514
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a82e41eef63f5c10800000000000000
+      internalID: 2044413224179083427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3012
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38300248ec760b8f0800000000000000
+      internalID: -526807019724733565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2510
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06f9eb68d2190460800000000000000
+      internalID: 7208313399315920397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2008
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ec25a41f7e25710800000000000000
+      internalID: 1680660634482691589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1506
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a4452f007209fb0800000000000000
+      internalID: -4643168330799887820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1004
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e85120cb0b5dc80800000000000000
+      internalID: -8298532416824963581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 502
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096914df5ec41d2b0800000000000000
+      internalID: -5561579514145696112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Jump_SS_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 302
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c433f72f6fc992a0800000000000000
+      internalID: -6730120091809925950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

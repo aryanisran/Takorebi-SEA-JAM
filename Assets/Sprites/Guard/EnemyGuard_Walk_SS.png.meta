@@ -1,0 +1,876 @@
+fileFormatVersion: 2
+guid: ab248d230e5009147aba08783000c29d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7601050478311890544
+    second: EnemyGuard_Walk_SS_0
+  - first:
+      213: 3832371543137592403
+    second: EnemyGuard_Walk_SS_1
+  - first:
+      213: -4174656533620069539
+    second: EnemyGuard_Walk_SS_2
+  - first:
+      213: 5205843107416363502
+    second: EnemyGuard_Walk_SS_3
+  - first:
+      213: -5451505017302417168
+    second: EnemyGuard_Walk_SS_4
+  - first:
+      213: 4371235036794890721
+    second: EnemyGuard_Walk_SS_5
+  - first:
+      213: 859597251235171065
+    second: EnemyGuard_Walk_SS_6
+  - first:
+      213: -2298374694105344439
+    second: EnemyGuard_Walk_SS_7
+  - first:
+      213: 3220032679793021749
+    second: EnemyGuard_Walk_SS_8
+  - first:
+      213: 8515921670136812633
+    second: EnemyGuard_Walk_SS_9
+  - first:
+      213: -6835043240072663106
+    second: EnemyGuard_Walk_SS_10
+  - first:
+      213: 6196559811829090981
+    second: EnemyGuard_Walk_SS_11
+  - first:
+      213: -7171997676611777312
+    second: EnemyGuard_Walk_SS_12
+  - first:
+      213: 5248095858182803893
+    second: EnemyGuard_Walk_SS_13
+  - first:
+      213: -7968048387914728476
+    second: EnemyGuard_Walk_SS_14
+  - first:
+      213: -3020104474104503958
+    second: EnemyGuard_Walk_SS_15
+  - first:
+      213: -3539155597522778765
+    second: EnemyGuard_Walk_SS_16
+  - first:
+      213: 7305024115007062787
+    second: EnemyGuard_Walk_SS_17
+  - first:
+      213: -1362666394565786011
+    second: EnemyGuard_Walk_SS_18
+  - first:
+      213: -2869421560497431962
+    second: EnemyGuard_Walk_SS_19
+  - first:
+      213: -6624635297748416317
+    second: EnemyGuard_Walk_SS_20
+  - first:
+      213: 7341289725919496363
+    second: EnemyGuard_Walk_SS_21
+  - first:
+      213: 5897000102088305050
+    second: EnemyGuard_Walk_SS_22
+  - first:
+      213: -1903777987469109073
+    second: EnemyGuard_Walk_SS_23
+  - first:
+      213: 3443152877968542070
+    second: EnemyGuard_Walk_SS_24
+  - first:
+      213: -6824325264618941284
+    second: EnemyGuard_Walk_SS_25
+  - first:
+      213: 6304351909277870718
+    second: EnemyGuard_Walk_SS_26
+  - first:
+      213: 4885689801302154815
+    second: EnemyGuard_Walk_SS_27
+  - first:
+      213: 6782855229019412151
+    second: EnemyGuard_Walk_SS_28
+  - first:
+      213: 62724696093474889
+    second: EnemyGuard_Walk_SS_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13108
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ed79f432b5c7960800000000000000
+      internalID: 7601050478311890544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12656
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354280c1d915f2530800000000000000
+      internalID: 3832371543137592403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12204
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5bef4e3004a016c0800000000000000
+      internalID: -4174656533620069539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11752
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1d7f579bede3840800000000000000
+      internalID: 5205843107416363502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11300
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f00e60f11d5854b0800000000000000
+      internalID: -5451505017302417168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10848
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9a6ed2b1fb9ac30800000000000000
+      internalID: 4371235036794890721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10396
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa46c94527edeb00800000000000000
+      internalID: 859597251235171065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9944
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9469a1d94688a10e0800000000000000
+      internalID: -2298374694105344439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9492
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533563c69aadfac20800000000000000
+      internalID: 3220032679793021749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9040
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9545e83c3a1ae2670800000000000000
+      internalID: 8515921670136812633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8588
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfa803036c0521a0800000000000000
+      internalID: -6835043240072663106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8136
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aac88d615a9ef550800000000000000
+      internalID: 6196559811829090981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7684
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecc0abac12f77c90800000000000000
+      internalID: -7171997676611777312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7232
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b15f2e906bf4d840800000000000000
+      internalID: 5248095858182803893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6780
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebf73d253ecb6190800000000000000
+      internalID: -7968048387914728476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6328
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61ee646bfe6616d0800000000000000
+      internalID: -3020104474104503958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5876
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375c1dc3cb462eec0800000000000000
+      internalID: -3539155597522778765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5424
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30388aa9ab8a06560800000000000000
+      internalID: 7305024115007062787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4972
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5664b844226d61de0800000000000000
+      internalID: -1362666394565786011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4520
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a14b72b44cd28d0800000000000000
+      internalID: -2869421560497431962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4068
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c80137ab419014a0800000000000000
+      internalID: -6624635297748416317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3616
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba808a22c1081e560800000000000000
+      internalID: 7341289725919496363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3164
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a996a65695a56d150800000000000000
+      internalID: 5897000102088305050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2712
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa812bdc10c6495e0800000000000000
+      internalID: -1903777987469109073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2260
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679cda6cc4988cf20800000000000000
+      internalID: 3443152877968542070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1808
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c941aa224502b41a0800000000000000
+      internalID: -6824325264618941284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1356
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a209bd8ae8d7750800000000000000
+      internalID: 6304351909277870718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e1d512df47dc340800000000000000
+      internalID: 4885689801302154815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 452
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b65a98c4ea812e50800000000000000
+      internalID: 6782855229019412151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Walk_SS_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940cb4d57c7ded000800000000000000
+      internalID: 62724696093474889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,876 @@
+fileFormatVersion: 2
+guid: ee04c49c345801843b87de921bd4983a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7171457120756344632
+    second: EnemyGuard_Idle_SS_0
+  - first:
+      213: 4938802244393202766
+    second: EnemyGuard_Idle_SS_1
+  - first:
+      213: 6571134974318002148
+    second: EnemyGuard_Idle_SS_2
+  - first:
+      213: 7952892735603829106
+    second: EnemyGuard_Idle_SS_3
+  - first:
+      213: -5322346625258186551
+    second: EnemyGuard_Idle_SS_4
+  - first:
+      213: 3419087296827646067
+    second: EnemyGuard_Idle_SS_5
+  - first:
+      213: 7519604404531034309
+    second: EnemyGuard_Idle_SS_6
+  - first:
+      213: 6792232121019812250
+    second: EnemyGuard_Idle_SS_7
+  - first:
+      213: 5957898624563700881
+    second: EnemyGuard_Idle_SS_8
+  - first:
+      213: 3555878570510342270
+    second: EnemyGuard_Idle_SS_9
+  - first:
+      213: 5253338364423908754
+    second: EnemyGuard_Idle_SS_10
+  - first:
+      213: 5717036432675775082
+    second: EnemyGuard_Idle_SS_11
+  - first:
+      213: 820191845106989011
+    second: EnemyGuard_Idle_SS_12
+  - first:
+      213: -2191647496699753931
+    second: EnemyGuard_Idle_SS_13
+  - first:
+      213: 3775947902108502692
+    second: EnemyGuard_Idle_SS_14
+  - first:
+      213: 6296983698293088270
+    second: EnemyGuard_Idle_SS_15
+  - first:
+      213: -4237769025538323316
+    second: EnemyGuard_Idle_SS_16
+  - first:
+      213: -3341970932036304942
+    second: EnemyGuard_Idle_SS_17
+  - first:
+      213: -1797679672355182587
+    second: EnemyGuard_Idle_SS_18
+  - first:
+      213: -4301624254504820654
+    second: EnemyGuard_Idle_SS_19
+  - first:
+      213: -7657280293243689946
+    second: EnemyGuard_Idle_SS_20
+  - first:
+      213: -36872000261491443
+    second: EnemyGuard_Idle_SS_21
+  - first:
+      213: 721374183556818439
+    second: EnemyGuard_Idle_SS_22
+  - first:
+      213: -4978236441918558311
+    second: EnemyGuard_Idle_SS_23
+  - first:
+      213: -3136118024429520320
+    second: EnemyGuard_Idle_SS_24
+  - first:
+      213: 7601140343898257112
+    second: EnemyGuard_Idle_SS_25
+  - first:
+      213: -4788436474481370369
+    second: EnemyGuard_Idle_SS_26
+  - first:
+      213: -4512131892228831643
+    second: EnemyGuard_Idle_SS_27
+  - first:
+      213: 4995185649045346081
+    second: EnemyGuard_Idle_SS_28
+  - first:
+      213: -4462404095414962332
+    second: EnemyGuard_Idle_SS_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13108
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837a0ac5142268360800000000000000
+      internalID: 7171457120756344632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12656
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4475f079762a8440800000000000000
+      internalID: 4938802244393202766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12204
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efbe5b917c513b50800000000000000
+      internalID: 6571134974318002148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11752
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 279637a8ec95e5e60800000000000000
+      internalID: 7952892735603829106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11300
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c89cfd71f93326b0800000000000000
+      internalID: -5322346625258186551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10848
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370667708c9037f20800000000000000
+      internalID: 3419087296827646067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10396
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8f8878d500b5860800000000000000
+      internalID: 7519604404531034309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9944
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a994265902bd24e50800000000000000
+      internalID: 6792232121019812250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9492
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19468e49b35bea250800000000000000
+      internalID: 5957898624563700881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9040
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7851b358b4095130800000000000000
+      internalID: 3555878570510342270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8588
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d2b68b86b97e840800000000000000
+      internalID: 5253338364423908754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8136
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a622b99685ef65f40800000000000000
+      internalID: 5717036432675775082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7684
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d736473328e16b00800000000000000
+      internalID: 820191845106989011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7232
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a465ea634b591e0800000000000000
+      internalID: -2191647496699753931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6780
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa0f837c9cd66430800000000000000
+      internalID: 3775947902108502692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6328
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e006f2d8f41636750800000000000000
+      internalID: 6296983698293088270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5876
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c82a0268b6035c0800000000000000
+      internalID: -4237769025538323316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5424
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df7b42d42fee91d0800000000000000
+      internalID: -3341970932036304942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4972
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508245dccdb5d07e0800000000000000
+      internalID: -1797679672355182587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4520
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2502901188f8d44c0800000000000000
+      internalID: -4301624254504820654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4068
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6246c9fa420ebb590800000000000000
+      internalID: -7657280293243689946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3616
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0571427c110d7ff0800000000000000
+      internalID: -36872000261491443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3164
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706aa097ff5d20a00800000000000000
+      internalID: 721374183556818439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2712
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f2a87f450c9eab0800000000000000
+      internalID: -4978236441918558311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2260
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04abd2cc5454a74d0800000000000000
+      internalID: -3136118024429520320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1808
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d632f5cedcac7960800000000000000
+      internalID: 7601140343898257112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1356
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa930d856e0c8db0800000000000000
+      internalID: -4788436474481370369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5664df743ffa161c0800000000000000
+      internalID: -4512131892228831643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 452
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1271a76d1e6725540800000000000000
+      internalID: 4995185649045346081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyGuard_Idle_SS_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 302
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467fa883e1b5212c0800000000000000
+      internalID: -4462404095414962332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
