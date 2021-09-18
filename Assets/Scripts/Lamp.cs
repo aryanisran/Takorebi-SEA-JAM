@@ -6,30 +6,63 @@ public class Lamp : MonoBehaviour
 {
     //PlayerController player;
     Rigidbody rb;
-    [SerializeField] GameObject lamp;
+    //[SerializeField] GameObject lamp;
 
-    //float fallSpeed = 10f;
-    //bool inside;
-    // Start is called before the first frame update
+    float dist;
+
+    [SerializeField] Light spotlight;
+    public float viewDistance;
+    float viewAngle;
+    public LayerMask viewMask;
+    Transform player;
+
+
     void Start()
     {
         //player = FindObjectOfType<PlayerController>();
-        rb = GetComponentInParent<Rigidbody>();
+        viewAngle = spotlight.spotAngle;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (CanSeePlayer())
+        {
+            //spotlight.color = Color.red;
+            StartCoroutine(LampDeath());
+        }
+        else
+        {
+            spotlight.color = Color.red;
+        }
     }
 
-    private void OnTriggerEnter(Collider other)
+    public IEnumerator LampDeath()
     {
-        if (other.tag == "Player")
+        rb.useGravity = true;
+        yield return new WaitForSeconds(0.5f);
+        //player.Die();
+        print("game over");
+
+    }
+
+    bool CanSeePlayer()
+    {
+        Vector3 offset = player.position - transform.position;
+        if (offset.sqrMagnitude <= viewDistance)
         {
-            //player.Die();
-            rb.useGravity = true;
+            float angleBetweenLampAndPlayer = Vector3.Angle(spotlight.transform.forward, offset.normalized);
+            if (angleBetweenLampAndPlayer < viewAngle / 2f)
+            {
+                if (!Physics.Linecast(transform.position, player.position, viewMask))
+                {
+                    return true;
+                }
+            }
         }
+        return false;
     }
 
 
