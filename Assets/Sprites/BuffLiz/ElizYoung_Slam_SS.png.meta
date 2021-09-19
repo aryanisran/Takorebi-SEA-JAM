@@ -1,0 +1,1584 @@
+fileFormatVersion: 2
+guid: b7d5258e76557a14f9458499a39b41d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -381538151712122705
+    second: ElizYoung_Slam_SS_0
+  - first:
+      213: -1218538631306040484
+    second: ElizYoung_Slam_SS_1
+  - first:
+      213: 1338555251147413196
+    second: ElizYoung_Slam_SS_2
+  - first:
+      213: 7927844229496725778
+    second: ElizYoung_Slam_SS_3
+  - first:
+      213: 8946331740212021460
+    second: ElizYoung_Slam_SS_4
+  - first:
+      213: 874724692328657388
+    second: ElizYoung_Slam_SS_5
+  - first:
+      213: -4286048851603971824
+    second: ElizYoung_Slam_SS_6
+  - first:
+      213: -7887223113440294269
+    second: ElizYoung_Slam_SS_7
+  - first:
+      213: -6184185339034075894
+    second: ElizYoung_Slam_SS_60
+  - first:
+      213: 3410183801596066305
+    second: ElizYoung_Slam_SS_9
+  - first:
+      213: 8702781381416022526
+    second: ElizYoung_Slam_SS_10
+  - first:
+      213: 8856786559929004965
+    second: ElizYoung_Slam_SS_11
+  - first:
+      213: 8018469034856897284
+    second: ElizYoung_Slam_SS_12
+  - first:
+      213: -825664985121034108
+    second: ElizYoung_Slam_SS_13
+  - first:
+      213: -794996032848974873
+    second: ElizYoung_Slam_SS_14
+  - first:
+      213: 6634091505574857001
+    second: ElizYoung_Slam_SS_15
+  - first:
+      213: -7564486868350207923
+    second: ElizYoung_Slam_SS_16
+  - first:
+      213: -5141877837279246217
+    second: ElizYoung_Slam_SS_61
+  - first:
+      213: 8379527219011165429
+    second: ElizYoung_Slam_SS_18
+  - first:
+      213: 2180790749985779896
+    second: ElizYoung_Slam_SS_19
+  - first:
+      213: 4764101427685728054
+    second: ElizYoung_Slam_SS_20
+  - first:
+      213: -4661425747791327251
+    second: ElizYoung_Slam_SS_21
+  - first:
+      213: 3076013346414311442
+    second: ElizYoung_Slam_SS_22
+  - first:
+      213: 8991646461708596811
+    second: ElizYoung_Slam_SS_23
+  - first:
+      213: 9180606115637895680
+    second: ElizYoung_Slam_SS_24
+  - first:
+      213: 6961905805800122055
+    second: ElizYoung_Slam_SS_25
+  - first:
+      213: 5584704301818880495
+    second: ElizYoung_Slam_SS_62
+  - first:
+      213: 4997048641364674855
+    second: ElizYoung_Slam_SS_27
+  - first:
+      213: 7320317589582498284
+    second: ElizYoung_Slam_SS_28
+  - first:
+      213: 4867520504784295643
+    second: ElizYoung_Slam_SS_29
+  - first:
+      213: -3743052010316434052
+    second: ElizYoung_Slam_SS_30
+  - first:
+      213: -5259025151847934665
+    second: ElizYoung_Slam_SS_31
+  - first:
+      213: 7188366112794097785
+    second: ElizYoung_Slam_SS_32
+  - first:
+      213: 5607076178162346548
+    second: ElizYoung_Slam_SS_33
+  - first:
+      213: 5618355828112474640
+    second: ElizYoung_Slam_SS_34
+  - first:
+      213: -7131788206440906786
+    second: ElizYoung_Slam_SS_63
+  - first:
+      213: 2696116359805147974
+    second: ElizYoung_Slam_SS_36
+  - first:
+      213: 1363762421362745448
+    second: ElizYoung_Slam_SS_37
+  - first:
+      213: -3163858098141369663
+    second: ElizYoung_Slam_SS_38
+  - first:
+      213: -7930988830986453063
+    second: ElizYoung_Slam_SS_39
+  - first:
+      213: 8127867682102686936
+    second: ElizYoung_Slam_SS_40
+  - first:
+      213: -4113848436666822635
+    second: ElizYoung_Slam_SS_41
+  - first:
+      213: -6663280269411338000
+    second: ElizYoung_Slam_SS_42
+  - first:
+      213: -3849027463244463791
+    second: ElizYoung_Slam_SS_43
+  - first:
+      213: -7459985030490434890
+    second: ElizYoung_Slam_SS_44
+  - first:
+      213: -5405591429434754062
+    second: ElizYoung_Slam_SS_45
+  - first:
+      213: -1052655269553012789
+    second: ElizYoung_Slam_SS_46
+  - first:
+      213: 6945608044039656736
+    second: ElizYoung_Slam_SS_47
+  - first:
+      213: -8669104130499871096
+    second: ElizYoung_Slam_SS_48
+  - first:
+      213: -5828466514817271292
+    second: ElizYoung_Slam_SS_49
+  - first:
+      213: -5613349513572671282
+    second: ElizYoung_Slam_SS_50
+  - first:
+      213: -3255748772568766735
+    second: ElizYoung_Slam_SS_51
+  - first:
+      213: 883359584577493462
+    second: ElizYoung_Slam_SS_52
+  - first:
+      213: -734182140259908790
+    second: ElizYoung_Slam_SS_53
+  - first:
+      213: 4418522067898409512
+    second: ElizYoung_Slam_SS_54
+  - first:
+      213: -6855129468104537686
+    second: ElizYoung_Slam_SS_55
+  - first:
+      213: 9098324938346433729
+    second: ElizYoung_Slam_SS_56
+  - first:
+      213: -5076578583816266040
+    second: ElizYoung_Slam_SS_57
+  - first:
+      213: 2355195854527285340
+    second: ElizYoung_Slam_SS_58
+  - first:
+      213: -1752777501647212216
+    second: ElizYoung_Slam_SS_59
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3012
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa890fe821184baf0800000000000000
+      internalID: -381538151712122705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_1
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 3012
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ba9e72291e61fe0800000000000000
+      internalID: -1218538631306040484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_2
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 3012
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc610e0b8e0839210800000000000000
+      internalID: 1338555251147413196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_3
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 3012
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21168cdb25c550e60800000000000000
+      internalID: 7927844229496725778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_4
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 3012
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8c32a6151c72c70800000000000000
+      internalID: 8946331740212021460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_5
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 3012
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce133822975a32c00800000000000000
+      internalID: 874724692328657388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_6
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 3012
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011ac262745e484c0800000000000000
+      internalID: -4286048851603971824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_7
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 3012
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a042bdd54fa8290800000000000000
+      internalID: -7887223113440294269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_60
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 3012
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0df1b9033c5d2aa0800000000000000
+      internalID: -6184185339034075894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2510
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10abce08918635f20800000000000000
+      internalID: 3410183801596066305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_10
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 2510
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef17f2d9e8d76c870800000000000000
+      internalID: 8702781381416022526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_11
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 2510
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a3b5047370a9ea70800000000000000
+      internalID: 8856786559929004965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_12
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 2510
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b5d118a13574f60800000000000000
+      internalID: 8018469034856897284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_13
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 2510
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480f1621216aa84f0800000000000000
+      internalID: -825664985121034108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_14
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 2510
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb2138f15b97f4f0800000000000000
+      internalID: -794996032848974873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_15
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 2510
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929c93d4317011c50800000000000000
+      internalID: 6634091505574857001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_16
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 2510
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48f0e7854b850790800000000000000
+      internalID: -7564486868350207923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_61
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 2510
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778448e895164a8b0800000000000000
+      internalID: -5141877837279246217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2008
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc90eaeb9f0a4470800000000000000
+      internalID: 8379527219011165429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_19
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 2008
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b03c5ef1a9b34e10800000000000000
+      internalID: 2180790749985779896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_20
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 2008
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f9327d10d7d1240800000000000000
+      internalID: 4764101427685728054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_21
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 2008
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defc90ccaf94f4fb0800000000000000
+      internalID: -4661425747791327251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_22
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 2008
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218b26557d130ba20800000000000000
+      internalID: 3076013346414311442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_23
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 2008
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46f90031deb8cc70800000000000000
+      internalID: 8991646461708596811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_24
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 2008
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00220690f90186f70800000000000000
+      internalID: 9180606115637895680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_25
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 2008
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c62272d178ad9060800000000000000
+      internalID: 6961905805800122055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_62
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 2012
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1a28539fad08d40800000000000000
+      internalID: 5584704301818880495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1506
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729c3e98345195540800000000000000
+      internalID: 4997048641364674855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_28
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1506
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9cb12201ef69560800000000000000
+      internalID: 7320317589582498284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_29
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1506
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd619902c18ec8340800000000000000
+      internalID: 4867520504784295643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_30
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 1506
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75f64537020e0cc0800000000000000
+      internalID: -3743052010316434052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_31
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 1506
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7355247ec703407b0800000000000000
+      internalID: -5259025151847934665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_32
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 1506
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9783c8cd4e432c360800000000000000
+      internalID: 7188366112794097785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_33
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 1506
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43aebe3931650dd40800000000000000
+      internalID: 5607076178162346548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_34
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 1506
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012c36cbbd868fd40800000000000000
+      internalID: 5618355828112474640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_63
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 1506
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edff4cd796cc60d90800000000000000
+      internalID: -7131788206440906786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1004
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b1e4b6b878a6520800000000000000
+      internalID: 2696116359805147974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_37
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1004
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8606a5b52be0de210800000000000000
+      internalID: 1363762421362745448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_38
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1004
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca6a8492d7b714d0800000000000000
+      internalID: -3163858098141369663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_39
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 1004
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf367bada77fe190800000000000000
+      internalID: -7930988830986453063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_40
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 1004
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4bb15f79cfbc070800000000000000
+      internalID: 8127867682102686936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_41
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 1004
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5109da894aca8e6c0800000000000000
+      internalID: -4113848436666822635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_42
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 1008
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f83ed606e54783a0800000000000000
+      internalID: -6663280269411338000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_43
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 1004
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151479a4ae1859ac0800000000000000
+      internalID: -3849027463244463791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 502
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2d2e3b32fc87890800000000000000
+      internalID: -7459985030490434890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_45
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 502
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb35a72c3b7bf4b0800000000000000
+      internalID: -5405591429434754062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_46
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 502
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf795b0c973461f0800000000000000
+      internalID: -1052655269553012789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_47
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 502
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025541677b1c36060800000000000000
+      internalID: 6945608044039656736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_48
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 502
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88efea469b721b780800000000000000
+      internalID: -8669104130499871096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_49
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 502
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40abe07d5902d1fa0800000000000000
+      internalID: -5828466514817271292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_50
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 502
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0a363bb506912b0800000000000000
+      internalID: -5613349513572671282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_51
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 502
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6ef15bdb141d2d0800000000000000
+      internalID: -3255748772568766735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d99da7acd2524c00800000000000000
+      internalID: 883359584577493462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_53
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 0
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a434f59bb39afc5f0800000000000000
+      internalID: -734182140259908790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_54
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 0
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8222f41196eb15d30800000000000000
+      internalID: 4418522067898409512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_55
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 0
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9015c9110bdd0a0800000000000000
+      internalID: -6855129468104537686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_56
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 0
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc8731935eb34e70800000000000000
+      internalID: 9098324938346433729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_57
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 0
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce9645ccae5c89b0800000000000000
+      internalID: -5076578583816266040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_58
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 0
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58429db6265fa020800000000000000
+      internalID: 2355195854527285340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizYoung_Slam_SS_59
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 4
+        width: 422
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841750c1622eca7e0800000000000000
+      internalID: -1752777501647212216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 70422691c112f6e42a65acf81c242ed3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

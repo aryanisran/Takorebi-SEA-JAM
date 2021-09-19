@@ -5,6 +5,7 @@ using UnityEngine;
 public class Crown : MonoBehaviour
 {
     public PlayerController player;
+    [SerializeField] GameObject sprite;
 
     private void Start()
     {
@@ -22,7 +23,8 @@ public class Crown : MonoBehaviour
 
     public IEnumerator Collected()
     {
-        player.GetComponent<Animator>().SetTrigger("Buff");
+        sprite.GetComponent<Animator>().SetTrigger("Buff");
+        sprite.GetComponent<Animator>().SetBool("Walk", false);
         player.SwitchForm();
         yield return new WaitForSeconds(0.1f);
         Destroy(this.gameObject);

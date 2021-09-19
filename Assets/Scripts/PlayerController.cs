@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     public Rigidbody rb;
     SpriteRenderer sr;
-    Animator anim;
+    public Animator anim;
     Vector2 moveInput;
     [SerializeField] public float moveSpeed, jumpForce, jumpTime, groundCheckRadius , groundCheckDistance;
 
