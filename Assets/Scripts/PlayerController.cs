@@ -24,6 +24,9 @@ public class PlayerController : MonoBehaviour
     public int directionFacing;
     int prevDir;
     public int keysHolding;
+    public GameObject pauseScreen, settingsScreen;
+    bool paused;
+    public bool settingsOpen { get; set; }  
     // Start is called before the first frame update
     void Start()
     {
@@ -48,7 +51,30 @@ public class PlayerController : MonoBehaviour
             keySprite.SetActive(true);
         }
         else { keySprite.SetActive(false); }
-        
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (!paused)
+            {
+                pauseScreen.SetActive(true);
+                Time.timeScale = 0;
+                paused = true;
+            }
+            else
+            {
+                if (settingsOpen)
+                {
+                    settingsScreen.SetActive(false);
+                    settingsOpen = false;
+                }
+                else
+                {
+                    pauseScreen.SetActive(false);
+                    Time.timeScale = 1;
+                    paused = false;
+                }
+            }
+        }
         #region Movement
         if (!oldEli.isBuilding)
         {
@@ -168,6 +194,7 @@ public class PlayerController : MonoBehaviour
 
     public void Respawn()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 

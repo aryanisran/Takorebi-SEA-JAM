@@ -84,6 +84,10 @@ public class OldEli : MonoBehaviour
         }
         #endregion
         Flashbang();
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            player.Respawn();
+        }
     }
 
 

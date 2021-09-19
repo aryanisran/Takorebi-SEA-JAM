@@ -157,13 +157,15 @@ public class Guard : MonoBehaviour
         {
             if(player.gameObject.GetComponent<BuffEli>().lethal)
             {
-                //StartCoroutine(GuardDie());
+                StartCoroutine(GuardDie());
             }
         }
     }
 
-    //public IEnumerator GuardDie()
-    //{
-
-    //}
+    public IEnumerator GuardDie()
+    {
+        anim.SetTrigger("Die");
+        yield return new WaitForSeconds(1f);
+        Destroy(gameObject);
+    }
 }
