@@ -50,6 +50,10 @@ public class Guard : MonoBehaviour
         {
             if (scared)
             {
+                if (player.GetComponent<BuffEli>().lethal)
+                {
+                    GuardDie();
+                }
                 Vector3 direction = -1 * (player.transform.position - transform.position).normalized;
                 rb.velocity = direction * moveSpeed;
             }
