@@ -10,6 +10,10 @@ public class OldEli : MonoBehaviour
     GameObject guide, platform;
     public int flashCount;
 
+    public int prevCheckpoint;
+
+    public Transform[] checkPoints;
+
     //[SerializeField] int platformSpawned;
 
     // Start is called before the first frame update
@@ -102,5 +106,11 @@ public class OldEli : MonoBehaviour
     {
         flashCount++;
         //Might have other ui stuff to add here later
+    }
+
+    public void PassCheckpoint(int _i)
+    {
+        prevCheckpoint = _i;
+        PlayerPrefs.SetInt("Checkpoint", prevCheckpoint);
     }
 }

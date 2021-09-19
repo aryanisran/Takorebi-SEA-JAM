@@ -64,7 +64,7 @@ public class Guard : MonoBehaviour
 
             if(playerVisibleTimer >= timeToSpotPlayer)
             {
-                //Do player spotted stuff, game over
+                player.GetComponent<PlayerController>().Die();
             }
         }
     }

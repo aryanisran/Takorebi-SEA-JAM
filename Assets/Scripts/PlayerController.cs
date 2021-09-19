@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -34,6 +35,9 @@ public class PlayerController : MonoBehaviour
         directionFacing = 1;
         oldEli = GetComponent<OldEli>();
         buffEli = GetComponent<BuffEli>();
+
+        int i = PlayerPrefs.GetInt("Checkpoints", 0);
+        transform.position = new Vector3(oldEli.checkPoints[i].position.x, transform.position.y, transform.position.z);
     }
 
     // Update is called once per frame
@@ -153,6 +157,7 @@ public class PlayerController : MonoBehaviour
             //death animation
             yield return new WaitForSeconds(1f);
             blackScreen.GetComponent<Animator>().SetTrigger("Die");
+            yield return new WaitForSeconds(1f);
             Respawn();
         }
     }
@@ -163,7 +168,7 @@ public class PlayerController : MonoBehaviour
 
     public void Respawn()
     {
-
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void SwitchForm()
