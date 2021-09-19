@@ -16,6 +16,7 @@ public class Key : MonoBehaviour
         if (other.tag == "Player")
         {
             player.keysHolding++;
+            GetComponent<SpriteRenderer>().enabled = false;
         }
     }
 }

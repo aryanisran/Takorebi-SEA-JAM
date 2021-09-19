@@ -5,13 +5,15 @@ using UnityEngine;
 public class Door : MonoBehaviour
 {
     public PlayerController player;
-    Animator anim;
+    //Animator anim;
+
+    public GameObject realDoor;
 
     // Start is called before the first frame update
     void Start()
     {
         player = FindObjectOfType<PlayerController>();
-        anim = GetComponent<Animator>();
+        //anim = GetComponent<Animator>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -19,7 +21,7 @@ public class Door : MonoBehaviour
         if (other.tag == "Player" && player.keysHolding >= 1)
         {
             player.keysHolding--;
-            anim.SetTrigger("Open");
+            realDoor.GetComponent<Animator>().SetTrigger("Open");
         }
     }
 
