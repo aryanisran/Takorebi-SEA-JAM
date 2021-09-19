@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] GameObject blackScreen;
     [SerializeField] GameObject keySprite;
+    [SerializeField] GameObject oldAbilities, buffAbilities;
 
     public bool isGrounded, isJumping;
     float maxJumpTime;
@@ -24,9 +25,6 @@ public class PlayerController : MonoBehaviour
     public int directionFacing;
     int prevDir;
     public int keysHolding;
-    public GameObject pauseScreen, settingsScreen;
-    bool paused;
-    public bool settingsOpen { get; set; }  
     // Start is called before the first frame update
     void Start()
     {
@@ -52,29 +50,17 @@ public class PlayerController : MonoBehaviour
         }
         else { keySprite.SetActive(false); }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (oldEli.isActiveAndEnabled == true)
         {
-            if (!paused)
-            {
-                pauseScreen.SetActive(true);
-                Time.timeScale = 0;
-                paused = true;
-            }
-            else
-            {
-                if (settingsOpen)
-                {
-                    settingsScreen.SetActive(false);
-                    settingsOpen = false;
-                }
-                else
-                {
-                    pauseScreen.SetActive(false);
-                    Time.timeScale = 1;
-                    paused = false;
-                }
-            }
+            oldAbilities.SetActive(true);
+            buffAbilities.SetActive(false);
         }
+        else
+        {
+            oldAbilities.SetActive(false);
+            buffAbilities.SetActive(true);
+        }
+        
         #region Movement
         if (!oldEli.isBuilding)
         {
@@ -194,7 +180,6 @@ public class PlayerController : MonoBehaviour
 
     public void Respawn()
     {
-        Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -205,12 +190,15 @@ public class PlayerController : MonoBehaviour
             oldEli.enabled = false;
             buffEli.enabled = true;
 
+        
+
             // OLD ELI ANIMATION -> BUFF ELI ANIMATIONS
         } 
         else if (buffEli.enabled == true)
         {
             buffEli.enabled = false;
             oldEli.enabled = true;
+
 
             // BUFF ELI ANIMATIONS -> OLD ELI ANIMATIONS
         }
