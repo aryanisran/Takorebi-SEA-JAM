@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour
     BuffEli buffEli;
 
     public int directionFacing;
+
+    public int keysHolding;
     // Start is called before the first frame update
     void Start()
     {

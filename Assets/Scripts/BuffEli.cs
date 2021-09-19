@@ -68,7 +68,7 @@ public class BuffEli : MonoBehaviour
 
 
 
-        if (kicking || slamming)
+        if (kicking == true || slamming == true)
         {
             lethal = true;
         }

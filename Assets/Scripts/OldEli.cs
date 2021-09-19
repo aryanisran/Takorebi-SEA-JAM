@@ -9,6 +9,9 @@ public class OldEli : MonoBehaviour
     public GameObject guidePrefab, platformPrefab, flashbangPrefab;
     GameObject guide, platform;
     public int flashCount;
+
+    //[SerializeField] int platformSpawned;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -66,6 +69,7 @@ public class OldEli : MonoBehaviour
                 GameObject temp = guide;
                 guide = null;
                 Destroy(temp);
+                //platformSpawned++; 
                 isBuilding = false;
             }
             //This is to make sure we don't finalize building on the same frame we first pressed X
