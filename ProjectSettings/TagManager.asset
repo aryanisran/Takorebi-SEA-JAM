@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Guard
   - SlamRange
+  - ScareRange
   layers:
   - Default
   - TransparentFX

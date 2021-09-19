@@ -25,6 +25,7 @@ public class Guard : MonoBehaviour
 
     public int directionFacing;
     int prevDir;
+    bool dying;
     // Start is called before the first frame update
     void Start()
     {
@@ -50,11 +51,26 @@ public class Guard : MonoBehaviour
         {
             if (scared)
             {
-                if (player.GetComponent<BuffEli>().lethal)
+                if (player.GetComponent<BuffEli>().slamming && !dying)
                 {
-                    GuardDie();
+                    dying = true;
+                    StartCoroutine(GuardDie());
                 }
                 Vector3 direction = -1 * (player.transform.position - transform.position).normalized;
+                if (Vector3.Dot(direction, Vector3.right) > 0)
+                {
+                    directionFacing = 1;
+                }
+                else
+                {
+                    directionFacing = -1;
+                }
+                if (directionFacing != prevDir)
+                {
+                    anim.SetBool("FlipDir", directionFacing == -1);
+                    anim.SetTrigger("Flip");
+                    prevDir = directionFacing;
+                }
                 rb.velocity = direction * moveSpeed;
             }
             else
@@ -89,7 +105,6 @@ public class Guard : MonoBehaviour
         anim.SetBool("Walking", true);
         if (rb.velocity != Vector3.zero)
         {
-            Debug.Log(Vector3.Dot(direction, Vector3.right) > 0);
             if (Vector3.Dot(direction, Vector3.right) > 0)
             {
                 directionFacing = 1;
@@ -100,7 +115,6 @@ public class Guard : MonoBehaviour
             }
             if (directionFacing != prevDir)
             {
-                Debug.Log("Flipping?");
                 anim.SetBool("FlipDir", directionFacing == -1);
                 anim.SetTrigger("Flip");
                 prevDir = directionFacing;
