@@ -3104,6 +3104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  sprite: {fileID: 2134956664}
 --- !u!135 &1389505723
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3861,6 +3862,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
+  anim: {fileID: 0}
   moveSpeed: 3
   jumpForce: 5
   jumpTime: 0.35

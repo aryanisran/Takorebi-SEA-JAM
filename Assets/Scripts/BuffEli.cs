@@ -7,6 +7,7 @@ public class BuffEli : MonoBehaviour
 {
     PlayerController player;
 
+
     public Transform kickDirection;
     public bool kicking;
     public bool slamming;
@@ -93,6 +94,16 @@ public class BuffEli : MonoBehaviour
         {
             slamUITime = 0f;
         }
+
+        if (kicking == true)
+        {
+            player.anim.SetBool("Kick", true);
+        } else { player.anim.SetBool("Kick", false); }
+
+        if (slamming == true)
+        {
+            player.anim.SetBool("Slam", true);
+        } else { player.anim.SetBool("Slam", false); }
     }
 
     public IEnumerator Kick()
