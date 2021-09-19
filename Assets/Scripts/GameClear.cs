@@ -12,6 +12,7 @@ public class GameClear : MonoBehaviour
         {
             if (other.GetComponent<BuffEli>().isActiveAndEnabled)
             {
+                PlayerPrefs.SetInt("Checkpoint", 0);
                 endScreen.SetActive(true);
             }
         }
