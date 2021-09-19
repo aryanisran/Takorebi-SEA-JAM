@@ -292,6 +292,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   flashed: 0
+  scared: 0
   directionFacing: 0
 --- !u!1 &35639973
 GameObject:
@@ -3876,6 +3877,8 @@ MonoBehaviour:
     m_Bits: 1
   directionFacing: 0
   keysHolding: 0
+  pauseScreen: {fileID: 0}
+  settingsScreen: {fileID: 0}
 --- !u!114 &1607396168
 MonoBehaviour:
   m_ObjectHideFlags: 0

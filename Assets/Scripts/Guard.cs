@@ -196,7 +196,7 @@ public class Guard : MonoBehaviour
     public IEnumerator GuardDie()
     {
         anim.SetTrigger("Die");
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.1f);
         Destroy(gameObject);
     }
 }
