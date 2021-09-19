@@ -6,10 +6,12 @@ public class Flashbang : MonoBehaviour
 {
     public float delayTime;
     List<Guard> guards = new List<Guard>();
+    public ParticleSystem explode, smoke;
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("Bang", delayTime);
+        smoke.Play();
+        Invoke("PlayParticles", delayTime);
     }
 
     // Update is called once per frame
@@ -18,6 +20,12 @@ public class Flashbang : MonoBehaviour
         
     }
 
+    void PlayParticles()
+    {
+        smoke.Stop();
+        explode.Play();
+        Invoke("Bang", 0.5f);
+    }
     void Bang()
     {
         foreach(Guard g in guards)
