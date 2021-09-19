@@ -59,6 +59,7 @@ public class PlayerController : MonoBehaviour
             if (!paused)
             {
                 pauseScreen.SetActive(true);
+                AudioManager.instance.Mute();
                 Time.timeScale = 0;
                 paused = true;
             }
@@ -73,6 +74,7 @@ public class PlayerController : MonoBehaviour
                 {
                     pauseScreen.SetActive(false);
                     Time.timeScale = 1;
+                    AudioManager.instance.Mute();
                     paused = false;
                 }
             }
@@ -219,8 +221,8 @@ public class PlayerController : MonoBehaviour
         {
             oldEli.enabled = false;
             buffEli.enabled = true;
-
-        
+            AudioManager.instance.Stop("Old BGM");
+            AudioManager.instance.Play("Young BGM");
 
             // OLD ELI ANIMATION -> BUFF ELI ANIMATIONS
         } 
@@ -228,7 +230,8 @@ public class PlayerController : MonoBehaviour
         {
             buffEli.enabled = false;
             oldEli.enabled = true;
-
+            AudioManager.instance.Play("Old BGM");
+            AudioManager.instance.Stop("Young BGM");
 
             // BUFF ELI ANIMATIONS -> OLD ELI ANIMATIONS
         }
