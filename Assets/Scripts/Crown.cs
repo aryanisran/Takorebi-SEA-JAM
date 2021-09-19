@@ -15,7 +15,15 @@ public class Crown : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            player.SwitchForm();
+            StartCoroutine(Collected());
+
         }
+    }
+
+    public IEnumerator Collected()
+    {
+        player.SwitchForm();
+        yield return new WaitForSeconds(0.1f);
+        Destroy(this.gameObject);
     }
 }

@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] GameObject blackScreen;
     [SerializeField] GameObject keySprite;
+    [SerializeField] GameObject oldAbilities, buffAbilities;
 
     public bool isGrounded, isJumping;
     float maxJumpTime;
@@ -48,6 +49,17 @@ public class PlayerController : MonoBehaviour
             keySprite.SetActive(true);
         }
         else { keySprite.SetActive(false); }
+
+        if (oldEli.isActiveAndEnabled == true)
+        {
+            oldAbilities.SetActive(true);
+            buffAbilities.SetActive(false);
+        }
+        else
+        {
+            oldAbilities.SetActive(false);
+            buffAbilities.SetActive(true);
+        }
         
         #region Movement
         if (!oldEli.isBuilding)
@@ -178,12 +190,15 @@ public class PlayerController : MonoBehaviour
             oldEli.enabled = false;
             buffEli.enabled = true;
 
+        
+
             // OLD ELI ANIMATION -> BUFF ELI ANIMATIONS
         } 
         else if (buffEli.enabled == true)
         {
             buffEli.enabled = false;
             oldEli.enabled = true;
+
 
             // BUFF ELI ANIMATIONS -> OLD ELI ANIMATIONS
         }

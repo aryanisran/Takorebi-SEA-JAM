@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BuffEli : MonoBehaviour
 {
@@ -19,6 +20,10 @@ public class BuffEli : MonoBehaviour
     public float kickSpeed;
 
     float kickCooldown = 2;
+
+    [SerializeField] GameObject kickUI;
+    [SerializeField] Slider slamUI;
+    public float slamUITime = 0f;
 
     // Start is called before the first frame update
     void Start()
@@ -41,6 +46,7 @@ public class BuffEli : MonoBehaviour
         if(!player.isGrounded)
         {
             canKick = true;
+            kickUI.SetActive(false);
 
             if (Input.GetKeyDown(KeyCode.Z))
             {
@@ -49,6 +55,7 @@ public class BuffEli : MonoBehaviour
         }
         else
         {
+            kickUI.SetActive(true);
             canKick = false;
             kicking = false;
         }
@@ -76,6 +83,16 @@ public class BuffEli : MonoBehaviour
         {
             lethal = false;
         }
+
+        slamUI.value = slamUITime;
+        if (slamUITime >= 0)
+        {
+            slamUITime = slamUITime - Time.deltaTime;
+        }
+        else
+        {
+            slamUITime = 0f;
+        }
     }
 
     public IEnumerator Kick()
@@ -95,6 +112,7 @@ public class BuffEli : MonoBehaviour
     public IEnumerator Slam()
     {
         print("slam");
+        slamUITime = 2f;
         canSlam = false;
         player.moveSpeed = 0f;
         player.jumpForce = 0f;

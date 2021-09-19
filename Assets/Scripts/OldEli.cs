@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class OldEli : MonoBehaviour
 {
@@ -13,6 +14,10 @@ public class OldEli : MonoBehaviour
     public int prevCheckpoint;
 
     public Transform[] checkPoints;
+
+    float buildCD = 0f;
+    [SerializeField] GameObject bombCDUI;
+    [SerializeField] Slider buildCDUI;
 
     //[SerializeField] int platformSpawned;
 
@@ -70,6 +75,7 @@ public class OldEli : MonoBehaviour
                 Destroy(Instantiate(platformPrefab, guide.transform.position, Quaternion.identity), 5f);
                 StartCoroutine(WaitPlatformCo());
                 //Store a temporary reference to the guide so we don't delete the guide stored in our global variable, just in case it gives us null refernce issues
+                buildCD = 5f;
                 GameObject temp = guide;
                 guide = null;
                 Destroy(temp);
@@ -84,6 +90,22 @@ public class OldEli : MonoBehaviour
         }
         #endregion
         Flashbang();
+
+        if (flashCount <= 0)
+        {
+            bombCDUI.SetActive(true);
+        }
+        else { bombCDUI.SetActive(false); }
+
+        buildCDUI.value = buildCD;
+        if (buildCD >= 0)
+        {
+            buildCD = buildCD - Time.deltaTime;
+        }
+        else
+        {
+            buildCD = 0f;
+        }
     }
 
 
