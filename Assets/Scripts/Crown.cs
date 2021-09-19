@@ -15,7 +15,7 @@ public class Crown : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-
+            player.SwitchForm();
         }
     }
 }

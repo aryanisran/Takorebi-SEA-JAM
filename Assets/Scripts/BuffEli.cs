@@ -14,7 +14,7 @@ public class BuffEli : MonoBehaviour
     public bool canKick;
     public bool canSlam = true;
 
-    bool lethal;
+    public bool lethal;
 
     public float kickSpeed;
 

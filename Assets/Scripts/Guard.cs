@@ -21,6 +21,8 @@ public class Guard : MonoBehaviour
     public bool flashed;
     Animator anim;
 
+
+
     public int directionFacing;
     int prevDir;
     // Start is called before the first frame update
@@ -148,4 +150,20 @@ public class Guard : MonoBehaviour
         yield return new WaitForSeconds(flashDuration);
         flashed = false;
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other == player.gameObject)
+        {
+            if(player.gameObject.GetComponent<BuffEli>().lethal)
+            {
+                //StartCoroutine(GuardDie());
+            }
+        }
+    }
+
+    //public IEnumerator GuardDie()
+    //{
+
+    //}
 }
