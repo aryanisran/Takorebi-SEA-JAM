@@ -10,9 +10,9 @@ public class Checkpoint : MonoBehaviour
     {
         if (other.CompareTag("Player") && !passed)
         {
-            passed = true;
             AudioManager.instance.Play("Collect");
             other.GetComponent<OldEli>().PassCheckpoint(index);
+            passed = true;
         }
     }
 }

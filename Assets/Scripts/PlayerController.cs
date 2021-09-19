@@ -41,7 +41,8 @@ public class PlayerController : MonoBehaviour
         oldEli = GetComponent<OldEli>();
         buffEli = GetComponent<BuffEli>();
 
-        int i = PlayerPrefs.GetInt("Checkpoints", 0);
+        int i = PlayerPrefs.GetInt("Checkpoint", 0);
+        Debug.Log(PlayerPrefs.GetInt("Checkpoint", 0));
         transform.position = new Vector3(oldEli.checkPoints[i].position.x, transform.position.y, transform.position.z);
     }
 
