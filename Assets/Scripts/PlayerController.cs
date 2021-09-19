@@ -198,7 +198,7 @@ public class PlayerController : MonoBehaviour
     {
         if (oldEli.isActiveAndEnabled)
         {
-            //death animation
+            anim.SetTrigger("Die");
             yield return new WaitForSeconds(1f);
             blackScreen.GetComponent<Animator>().SetTrigger("Die");
             yield return new WaitForSeconds(1f);

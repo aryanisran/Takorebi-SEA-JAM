@@ -1,0 +1,876 @@
+fileFormatVersion: 2
+guid: cdbb323c079c81340a4c7779e90d2bce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5387967301691461431
+    second: ElizOld_Fallover_SS_0
+  - first:
+      213: 8413870237061703902
+    second: ElizOld_Fallover_SS_1
+  - first:
+      213: -8997598085986657238
+    second: ElizOld_Fallover_SS_2
+  - first:
+      213: -1882663505134887283
+    second: ElizOld_Fallover_SS_3
+  - first:
+      213: -5669279041381549801
+    second: ElizOld_Fallover_SS_4
+  - first:
+      213: 7689175092227518373
+    second: ElizOld_Fallover_SS_5
+  - first:
+      213: 6499052645654204980
+    second: ElizOld_Fallover_SS_6
+  - first:
+      213: -698371152817744121
+    second: ElizOld_Fallover_SS_7
+  - first:
+      213: -4111463572458915222
+    second: ElizOld_Fallover_SS_8
+  - first:
+      213: -7409599445677397968
+    second: ElizOld_Fallover_SS_9
+  - first:
+      213: 6151915042209114655
+    second: ElizOld_Fallover_SS_10
+  - first:
+      213: 5482569063964596509
+    second: ElizOld_Fallover_SS_11
+  - first:
+      213: -2655548999675085911
+    second: ElizOld_Fallover_SS_12
+  - first:
+      213: -4672708994813819031
+    second: ElizOld_Fallover_SS_13
+  - first:
+      213: 637733276908519819
+    second: ElizOld_Fallover_SS_14
+  - first:
+      213: 1787560480419914284
+    second: ElizOld_Fallover_SS_15
+  - first:
+      213: 4202414358578160973
+    second: ElizOld_Fallover_SS_16
+  - first:
+      213: -6715883042350986129
+    second: ElizOld_Fallover_SS_17
+  - first:
+      213: 7897405039514316804
+    second: ElizOld_Fallover_SS_18
+  - first:
+      213: 4158209629964097408
+    second: ElizOld_Fallover_SS_19
+  - first:
+      213: 7431267592089325496
+    second: ElizOld_Fallover_SS_20
+  - first:
+      213: 6021678501061652964
+    second: ElizOld_Fallover_SS_21
+  - first:
+      213: -6406242240340458953
+    second: ElizOld_Fallover_SS_22
+  - first:
+      213: -1817711310187603833
+    second: ElizOld_Fallover_SS_23
+  - first:
+      213: 8104195204184191057
+    second: ElizOld_Fallover_SS_24
+  - first:
+      213: 6388060020968694361
+    second: ElizOld_Fallover_SS_25
+  - first:
+      213: 4333980776976021799
+    second: ElizOld_Fallover_SS_26
+  - first:
+      213: -3025676552309657300
+    second: ElizOld_Fallover_SS_27
+  - first:
+      213: 6218173674319982613
+    second: ElizOld_Fallover_SS_28
+  - first:
+      213: 778516249014335027
+    second: ElizOld_Fallover_SS_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11571
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0b24929481a35b0800000000000000
+      internalID: -5387967301691461431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11172
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed86b4ae66214c470800000000000000
+      internalID: 8413870237061703902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10773
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cd70d463c122380800000000000000
+      internalID: -8997598085986657238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10374
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ed7d0548f6fd5e0800000000000000
+      internalID: -1882663505134887283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9975
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719b2edbfbca251b0800000000000000
+      internalID: -5669279041381549801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9576
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afa004e10075ba60800000000000000
+      internalID: 7689175092227518373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9177
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43218c0a2f5413a50800000000000000
+      internalID: 6499052645654204980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8778
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7071beaf223ee46f0800000000000000
+      internalID: -698371152817744121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8379
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ab0a01aa521f6c0800000000000000
+      internalID: -4111463572458915222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7980
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038a778df80db2990800000000000000
+      internalID: -7409599445677397968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7581
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1aa14bf22eff5550800000000000000
+      internalID: 6151915042209114655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7182
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19d72a048ff51c40800000000000000
+      internalID: 5482569063964596509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6783
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abf8b62148952bd0800000000000000
+      internalID: -2655548999675085911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6384
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96789512de3372fb0800000000000000
+      internalID: -4672708994813819031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5985
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b810497590fa9d800800000000000000
+      internalID: 637733276908519819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5586
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22a4f939c0bec810800000000000000
+      internalID: 1787560480419914284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5187
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d456d020899f15a30800000000000000
+      internalID: 4202414358578160973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4788
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c899b84f36cc2a0800000000000000
+      internalID: -6715883042350986129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4389
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40071ab8a08399d60800000000000000
+      internalID: 7897405039514316804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3990
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0875e9790ade4b930800000000000000
+      internalID: 4158209629964097408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3591
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf4b51a08a212760800000000000000
+      internalID: 7431267592089325496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3192
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1f26741bc419350800000000000000
+      internalID: 6021678501061652964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2793
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7328767cf947817a0800000000000000
+      internalID: -6406242240340458953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2394
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788de0ca13136c6e0800000000000000
+      internalID: -1817711310187603833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1995
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150b2dfa992e77070800000000000000
+      internalID: 8104195204184191057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1596
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952a6b16eb2f6a850800000000000000
+      internalID: 6388060020968694361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1197
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729f603ed84652c30800000000000000
+      internalID: 4333980776976021799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 798
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21ba56d433a206d0800000000000000
+      internalID: -3025676552309657300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 399
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5103781f2046b4650800000000000000
+      internalID: 6218173674319982613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Fallover_SS_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 452
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3367e5a5768ddca00800000000000000
+      internalID: 778516249014335027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
