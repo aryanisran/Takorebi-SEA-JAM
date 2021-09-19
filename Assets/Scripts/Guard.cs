@@ -19,15 +19,21 @@ public class Guard : MonoBehaviour
     public LayerMask viewMask;
     Transform player;
     public bool flashed;
+    Animator anim;
 
+    public int directionFacing;
+    int prevDir;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        anim = GetComponentInChildren<Animator>();
         waypointIndex = 0;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         viewAngle = spotlight.spotAngle;
         originalColor = spotlight.color;
+        directionFacing = 1;
+        prevDir = 1;
     }
 
     // Update is called once per frame
@@ -43,6 +49,7 @@ public class Guard : MonoBehaviour
             if (CanSeePlayer())
             {
                 playerVisibleTimer += Time.deltaTime;
+                anim.SetBool("Walking", false);
                 rb.velocity = Vector3.zero;
             }
             else
@@ -65,6 +72,26 @@ public class Guard : MonoBehaviour
         Vector3 direction = waypoints[waypointIndex].position - transform.position;
         direction.Normalize();
         rb.velocity = direction * moveSpeed;
+        anim.SetBool("Walking", true);
+        if (rb.velocity != Vector3.zero)
+        {
+            Debug.Log(Vector3.Dot(direction, Vector3.right) > 0);
+            if (Vector3.Dot(direction, Vector3.right) > 0)
+            {
+                directionFacing = 1;
+            }
+            else
+            {
+                directionFacing = -1;
+            }
+            if (directionFacing != prevDir)
+            {
+                Debug.Log("Flipping?");
+                anim.SetBool("FlipDir", directionFacing == -1);
+                anim.SetTrigger("Flip");
+                prevDir = directionFacing;
+            }
+        }
         Vector3 targetPos = new Vector3(waypoints[waypointIndex].position.x, spotlight.transform.position.y, waypoints[waypointIndex].position.z);
         spotlight.transform.LookAt(targetPos);
     }

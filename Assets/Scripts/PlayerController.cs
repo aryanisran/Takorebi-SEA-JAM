@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     BuffEli buffEli;
 
     public int directionFacing;
+    int prevDir;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,7 @@ public class PlayerController : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         maxJumpTime = jumpTime;
 
+        directionFacing = 1;
         oldEli = GetComponent<OldEli>();
         buffEli = GetComponent<BuffEli>();
     }
@@ -43,22 +45,6 @@ public class PlayerController : MonoBehaviour
             moveInput.x = Input.GetAxis("Horizontal") * moveSpeed;
             moveInput.y = Input.GetAxis("Vertical") * moveSpeed;
 
-            //Flip sprite if we walk backwards, flip back when we walk forwards
-            if (moveInput.x < 0)
-            {
-                //anim.SetBool("FlipDir", true);
-                //anim.SetTrigger("Flip");
-                sr.flipX = true;
-                directionFacing = -1;
-            }
-            else if (moveInput.x > 0)
-            {
-                //anim.SetBool("FlipDir", false);
-                //anim.SetTrigger("Flip");
-                sr.flipX = false;
-                directionFacing = 1;
-            }
-
             //Set walking animation when we move in x or z direction, set back to idle when we're not moving
             if (moveInput != Vector2.zero)
             {
@@ -67,6 +53,23 @@ public class PlayerController : MonoBehaviour
             else
             {
                 anim.SetBool("Walking", false);
+            }
+
+            //Flip sprite if we walk backwards, flip back when we walk forwards
+            if (moveInput.x < 0)
+            {
+                directionFacing = -1;
+            }
+            else if (moveInput.x > 0)
+            {
+                directionFacing = 1;
+            }
+
+            if(directionFacing != prevDir)
+            {
+                anim.SetBool("FlipDir", directionFacing == -1);
+                anim.SetTrigger("Flip");
+                prevDir = directionFacing;
             }
         }
         #endregion
