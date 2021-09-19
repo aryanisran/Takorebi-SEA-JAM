@@ -18,7 +18,7 @@ public class Guard : MonoBehaviour
     float playerVisibleTimer;
     public LayerMask viewMask;
     Transform player;
-    public bool flashed;
+    public bool flashed, scared;
     Animator anim;
 
 
@@ -48,23 +48,31 @@ public class Guard : MonoBehaviour
         }
         if (!flashed)
         {
-            if (CanSeePlayer())
+            if (scared)
             {
-                playerVisibleTimer += Time.deltaTime;
-                anim.SetBool("Walking", false);
-                rb.velocity = Vector3.zero;
+                Vector3 direction = -1 * (player.transform.position - transform.position).normalized;
+                rb.velocity = direction * moveSpeed;
             }
             else
             {
-                playerVisibleTimer -= Time.deltaTime;
-                Patrol();
-            }
-            playerVisibleTimer = Mathf.Clamp(playerVisibleTimer, 0, timeToSpotPlayer);
-            spotlight.color = Color.Lerp(originalColor, Color.red, playerVisibleTimer);
+                if (CanSeePlayer())
+                {
+                    playerVisibleTimer += Time.deltaTime;
+                    anim.SetBool("Walking", false);
+                    rb.velocity = Vector3.zero;
+                }
+                else
+                {
+                    playerVisibleTimer -= Time.deltaTime;
+                    Patrol();
+                }
+                playerVisibleTimer = Mathf.Clamp(playerVisibleTimer, 0, timeToSpotPlayer);
+                spotlight.color = Color.Lerp(originalColor, Color.red, playerVisibleTimer);
 
-            if(playerVisibleTimer >= timeToSpotPlayer)
-            {
-                player.GetComponent<PlayerController>().Die();
+                if (playerVisibleTimer >= timeToSpotPlayer)
+                {
+                    player.GetComponent<PlayerController>().Die();
+                }
             }
         }
     }
@@ -153,9 +161,32 @@ public class Guard : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other == player.gameObject)
+        if (other.CompareTag("SlamRange") && player.GetComponent<BuffEli>().enabled)
         {
             if(player.gameObject.GetComponent<BuffEli>().lethal)
+            {
+                StartCoroutine(GuardDie());
+            }
+            else
+            {
+                scared = true;
+            }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("SlamRange") && player.GetComponent<BuffEli>().enabled)
+        {
+            scared = false;
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            if (player.gameObject.GetComponent<BuffEli>().lethal)
             {
                 StartCoroutine(GuardDie());
             }
