@@ -22,6 +22,7 @@ public class Crown : MonoBehaviour
 
     public IEnumerator Collected()
     {
+        player.GetComponent<Animator>().SetTrigger("Buff");
         player.SwitchForm();
         yield return new WaitForSeconds(0.1f);
         Destroy(this.gameObject);
