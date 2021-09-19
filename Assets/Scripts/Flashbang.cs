@@ -24,6 +24,7 @@ public class Flashbang : MonoBehaviour
     {
         smoke.Stop();
         explode.Play();
+        AudioManager.instance.Play("Explode");
         Invoke("Bang", 0.5f);
     }
     void Bang()

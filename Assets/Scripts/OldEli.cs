@@ -41,7 +41,7 @@ public class OldEli : MonoBehaviour
             //Round the x and y of the platform to the nearest 0.5 so it's in line with the grid
             float roundedX = Mathf.Round((transform.position.x) * 2) / 2;
             float roundedY = Mathf.Round((transform.position.y) * 2) / 2;
-            guide = Instantiate(guidePrefab, new Vector3(roundedX, roundedY, 0), Quaternion.identity);
+            guide = Instantiate(guidePrefab, new Vector3(roundedX, roundedY, 1.5f), Quaternion.identity);
         }
         if (isBuilding)
         {
@@ -64,7 +64,7 @@ public class OldEli : MonoBehaviour
             {
                 inputDir += Vector3.down;
             }
-            if (Vector3.Distance(guide.transform.position + inputDir * 0.25f, transform.position) < 1.5)
+            if (guide.transform.position.x - transform.position.x + inputDir.x * 0.25f < 1.5f && guide.transform.position.y - transform.position.y + inputDir.y * 0.25f < 1.5f)
             {
                 guide.transform.position += inputDir * 0.25f;
             }
@@ -119,6 +119,7 @@ public class OldEli : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.X) && flashCount > 0)
         {
+            AudioManager.instance.Play("Flashbang");
             Instantiate(flashbangPrefab, transform.position + Vector3.back * 0.2f, Quaternion.identity);
             flashCount--;
         }

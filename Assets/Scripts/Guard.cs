@@ -26,6 +26,8 @@ public class Guard : MonoBehaviour
     public int directionFacing;
     int prevDir;
     bool dying;
+
+    public GameObject stunParticle;
     // Start is called before the first frame update
     void Start()
     {
@@ -173,6 +175,8 @@ public class Guard : MonoBehaviour
 
     IEnumerator FlashedCo()
     {
+        Destroy(Instantiate(stunParticle, transform.position + Vector3.up, Quaternion.identity), flashDuration);
+        anim.SetBool("Walking", false);
         yield return new WaitForSeconds(flashDuration);
         flashed = false;
     }

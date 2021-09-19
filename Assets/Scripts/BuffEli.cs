@@ -108,6 +108,7 @@ public class BuffEli : MonoBehaviour
 
     public IEnumerator Kick()
     {
+        AudioManager.instance.Play("Kick");
         kicking = true;
         KickMotion();
         yield return new WaitForSeconds(kickCooldown);
@@ -122,6 +123,7 @@ public class BuffEli : MonoBehaviour
 
     public IEnumerator Slam()
     {
+        AudioManager.instance.Play("Slam");
         print("slam");
         slamUITime = 2f;
         canSlam = false;

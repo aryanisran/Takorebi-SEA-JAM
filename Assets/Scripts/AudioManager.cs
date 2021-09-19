@@ -56,7 +56,7 @@ public class AudioManager : MonoBehaviour
             s.source.pitch = s.pitch;
         }
 
-        Play("BGM");
+        Play("Old BGM");
     }
 
     public void Play(string name)

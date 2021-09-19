@@ -9,6 +9,7 @@ public class FlashbangPickup : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             other.GetComponent<OldEli>().PickupFlash();
+            AudioManager.instance.Play("Collect");
             Destroy(gameObject);
         }
     }

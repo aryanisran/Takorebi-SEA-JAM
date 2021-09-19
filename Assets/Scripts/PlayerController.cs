@@ -132,6 +132,7 @@ public class PlayerController : MonoBehaviour
         //Jump when we hit space
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
+            AudioManager.instance.Play("Jump");
             rb.velocity = new Vector3(rb.velocity.x, jumpForce, rb.velocity.z);
             isJumping = true;
         }

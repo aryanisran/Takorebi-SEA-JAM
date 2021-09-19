@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6505836995604464846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 780534960852669249}
+  - component: {fileID: 4989859549893298575}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &780534960852669249
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6505836995604464846}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.7130846, y: 0.88521945, z: -0.4642115}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4989859549893298575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6505836995604464846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85dbd4a9dc9884149896358f9e49128c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Old BGM
+    loop: 1
+    clip: {fileID: 8300000, guid: c20badedb71a6d04381658b63d01cf30, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Young BGM
+    loop: 1
+    clip: {fileID: 8300000, guid: d1e9eb5fda529f44686083f37a6fe17f, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Collect
+    loop: 0
+    clip: {fileID: 8300000, guid: 06c7a221ca54c6b49b4765291de12ce9, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Flashbang
+    loop: 0
+    clip: {fileID: 8300000, guid: 4c1cf48bd75fe9b468c94f346fb98609, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Jump
+    loop: 0
+    clip: {fileID: 8300000, guid: f8f769c829db3414cb406ef8d9d43650, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Kick
+    loop: 0
+    clip: {fileID: 8300000, guid: a2b8ae832b72e9549829e0d8b7c1758c, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Explode
+    loop: 0
+    clip: {fileID: 8300000, guid: 9c5dc17df3ec3d547be9e0f9de379699, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Slam
+    loop: 0
+    clip: {fileID: 8300000, guid: e0b546ad7ad93fb43b036cb6d29ecab4, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  muted: 0
