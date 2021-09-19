@@ -1,0 +1,876 @@
+fileFormatVersion: 2
+guid: aebc87d59f1be9140b6ce85facf02c1b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3824841998570975091
+    second: ElizOld_Idle_SS_0
+  - first:
+      213: 2235549070272893100
+    second: ElizOld_Idle_SS_1
+  - first:
+      213: -4168700970402625651
+    second: ElizOld_Idle_SS_2
+  - first:
+      213: -5957664535086514262
+    second: ElizOld_Idle_SS_3
+  - first:
+      213: 3063217516000604456
+    second: ElizOld_Idle_SS_4
+  - first:
+      213: -6388472966201329630
+    second: ElizOld_Idle_SS_5
+  - first:
+      213: -3341203487149875528
+    second: ElizOld_Idle_SS_6
+  - first:
+      213: 4961744636534300669
+    second: ElizOld_Idle_SS_7
+  - first:
+      213: 5094460492631884546
+    second: ElizOld_Idle_SS_8
+  - first:
+      213: -3164538432915576133
+    second: ElizOld_Idle_SS_9
+  - first:
+      213: -6526138446864124684
+    second: ElizOld_Idle_SS_10
+  - first:
+      213: -4482625451826709793
+    second: ElizOld_Idle_SS_11
+  - first:
+      213: -2467517225754284703
+    second: ElizOld_Idle_SS_12
+  - first:
+      213: 6118398320927433804
+    second: ElizOld_Idle_SS_13
+  - first:
+      213: -544841585084424248
+    second: ElizOld_Idle_SS_14
+  - first:
+      213: -1642070932020764208
+    second: ElizOld_Idle_SS_15
+  - first:
+      213: -7305821585590464965
+    second: ElizOld_Idle_SS_16
+  - first:
+      213: 1189970301334757187
+    second: ElizOld_Idle_SS_17
+  - first:
+      213: -6772330594378760000
+    second: ElizOld_Idle_SS_18
+  - first:
+      213: -1141048511902967215
+    second: ElizOld_Idle_SS_19
+  - first:
+      213: -224293055885405719
+    second: ElizOld_Idle_SS_20
+  - first:
+      213: -7343939250425024047
+    second: ElizOld_Idle_SS_21
+  - first:
+      213: 3933105653698263838
+    second: ElizOld_Idle_SS_22
+  - first:
+      213: -517480139357701804
+    second: ElizOld_Idle_SS_23
+  - first:
+      213: -5287196193892729072
+    second: ElizOld_Idle_SS_24
+  - first:
+      213: 829758716672701922
+    second: ElizOld_Idle_SS_25
+  - first:
+      213: 124322617801410912
+    second: ElizOld_Idle_SS_26
+  - first:
+      213: -5915120871809845649
+    second: ElizOld_Idle_SS_27
+  - first:
+      213: -5646797573124841410
+    second: ElizOld_Idle_SS_28
+  - first:
+      213: -7672106509204633188
+    second: ElizOld_Idle_SS_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11571
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f61d66881941530800000000000000
+      internalID: 3824841998570975091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11172
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca01293f804460f10800000000000000
+      internalID: 2235549070272893100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10773
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87435cdd8cc526c0800000000000000
+      internalID: -4168700970402625651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10374
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafb93f9baf125da0800000000000000
+      internalID: -5957664535086514262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9975
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82178f6e91cb28a20800000000000000
+      internalID: 3063217516000604456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9576
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22832605fa59757a0800000000000000
+      internalID: -6388472966201329630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9177
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be92228129a1a1d0800000000000000
+      internalID: -3341203487149875528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8778
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff93de5578abd440800000000000000
+      internalID: 4961744636534300669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8379
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203c59193d823b640800000000000000
+      internalID: 5094460492631884546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7980
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbaeefbcf0d4514d0800000000000000
+      internalID: -3164538432915576133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7581
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4f4a7d8af7e65a0800000000000000
+      internalID: -6526138446864124684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7182
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda7ebac6e38ac1c0800000000000000
+      internalID: -4482625451826709793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6783
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d22c9182e91cdd0800000000000000
+      internalID: -2467517225754284703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6384
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44e9313bdae8e450800000000000000
+      internalID: 6118398320927433804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5985
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf9e2e07755078f0800000000000000
+      internalID: -544841585084424248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5586
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d168e8ff213639e0800000000000000
+      internalID: -1642070932020764208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5187
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ecf7ec9f18c9a90800000000000000
+      internalID: -7305821585590464965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4788
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f92503faf938010800000000000000
+      internalID: 1189970301334757187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4389
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c04b8ca439d302a0800000000000000
+      internalID: -6772330594378760000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3990
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a19888c6e2a20f0800000000000000
+      internalID: -1141048511902967215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3591
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e11d5e67a623ecf0800000000000000
+      internalID: -224293055885405719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3192
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d13e5e5926151a90800000000000000
+      internalID: -7343939250425024047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2793
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bf3c8e0c2359630800000000000000
+      internalID: 3933105653698263838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2394
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459b3431e8a81d8f0800000000000000
+      internalID: -517480139357701804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1995
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ff93d031b10a6b0800000000000000
+      internalID: -5287196193892729072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1596
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e57f841825e38b00800000000000000
+      internalID: 829758716672701922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1197
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069899f13cea9b100800000000000000
+      internalID: 124322617801410912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 798
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66764028e449eda0800000000000000
+      internalID: -5915120871809845649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 399
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e302b57768b82a1b0800000000000000
+      internalID: -5646797573124841410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Idle_SS_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9945e747c3378590800000000000000
+      internalID: -7672106509204633188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

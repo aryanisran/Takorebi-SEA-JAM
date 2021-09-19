@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 0
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
@@ -1493,6 +1493,36 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &616763454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 616763455}
+  m_Layer: 0
+  m_Name: Start Pos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &616763455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616763454}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.5, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &635705934
 GameObject:
   m_ObjectHideFlags: 0
@@ -3851,7 +3881,7 @@ MonoBehaviour:
   groundCheckRadius: 0.2
   groundCheckDistance: 0.5
   blackScreen: {fileID: 1476692236}
-  keySprite: {fileID: 0}
+  keySprite: {fileID: 709226895}
   isGrounded: 0
   isJumping: 0
   realGround:
@@ -3878,6 +3908,9 @@ MonoBehaviour:
   platformPrefab: {fileID: 1628967780685730227, guid: b07e7a7f93845934d84dc33772427eff, type: 3}
   flashbangPrefab: {fileID: 4333759140894286639, guid: 7e76c209758a2c740a0c86f54ba000d4, type: 3}
   flashCount: 1
+  prevCheckpoint: 0
+  checkPoints:
+  - {fileID: 0}
 --- !u!114 &1607396169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5053,9 +5086,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2902247422746666468, guid: d7cc48c68a65514428fc88608457cb71, type: 3}
+  m_Sprite: {fileID: 3824841998570975091, guid: aebc87d59f1be9140b6ce85facf02c1b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}

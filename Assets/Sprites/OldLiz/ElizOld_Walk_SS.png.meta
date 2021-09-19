@@ -1,0 +1,1236 @@
+fileFormatVersion: 2
+guid: eae01b878164fa34bbb862dcc7474c3e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5567402862182648456
+    second: ElizOld_Walk_SS_0
+  - first:
+      213: 540175317625727263
+    second: ElizOld_Walk_SS_1
+  - first:
+      213: 3435632775252450731
+    second: ElizOld_Walk_SS_2
+  - first:
+      213: -5819632024898000273
+    second: ElizOld_Walk_SS_3
+  - first:
+      213: -5347743842877493576
+    second: ElizOld_Walk_SS_4
+  - first:
+      213: 6503133951658346729
+    second: ElizOld_Walk_SS_5
+  - first:
+      213: -5160028334447511068
+    second: ElizOld_Walk_SS_6
+  - first:
+      213: 7269331844173124628
+    second: ElizOld_Walk_SS_39
+  - first:
+      213: -6893963979881370227
+    second: ElizOld_Walk_SS_39
+  - first:
+      213: -7101183276012786734
+    second: ElizOld_Walk_SS_7
+  - first:
+      213: 4229409722090369298
+    second: ElizOld_Walk_SS_8
+  - first:
+      213: 8294785552419900826
+    second: ElizOld_Walk_SS_9
+  - first:
+      213: 1882963708158444789
+    second: ElizOld_Walk_SS_10
+  - first:
+      213: 5422680998434114769
+    second: ElizOld_Walk_SS_11
+  - first:
+      213: 6979748427398536889
+    second: ElizOld_Walk_SS_12
+  - first:
+      213: 5515394127395665067
+    second: ElizOld_Walk_SS_40
+  - first:
+      213: 994681029297023492
+    second: ElizOld_Walk_SS_13
+  - first:
+      213: 8370764464940353825
+    second: ElizOld_Walk_SS_40
+  - first:
+      213: 4465654206940145797
+    second: ElizOld_Walk_SS_14
+  - first:
+      213: 7305322867703417618
+    second: ElizOld_Walk_SS_15
+  - first:
+      213: -4032246155907966080
+    second: ElizOld_Walk_SS_16
+  - first:
+      213: 7724270304896367916
+    second: ElizOld_Walk_SS_17
+  - first:
+      213: 3939135354818339055
+    second: ElizOld_Walk_SS_18
+  - first:
+      213: -4221378482545839353
+    second: ElizOld_Walk_SS_41
+  - first:
+      213: 1868351252037454871
+    second: ElizOld_Walk_SS_19
+  - first:
+      213: -8668005047401002160
+    second: ElizOld_Walk_SS_20
+  - first:
+      213: 4442018012784031162
+    second: ElizOld_Walk_SS_41
+  - first:
+      213: 5476297470495217723
+    second: ElizOld_Walk_SS_21
+  - first:
+      213: 6203047223132569645
+    second: ElizOld_Walk_SS_22
+  - first:
+      213: -3986603883646545121
+    second: ElizOld_Walk_SS_23
+  - first:
+      213: 6267632777011855033
+    second: ElizOld_Walk_SS_24
+  - first:
+      213: -4089837484681725047
+    second: ElizOld_Walk_SS_25
+  - first:
+      213: -5065445516110559563
+    second: ElizOld_Walk_SS_26
+  - first:
+      213: -5463803475210259329
+    second: ElizOld_Walk_SS_27
+  - first:
+      213: -280199095796034504
+    second: ElizOld_Walk_SS_28
+  - first:
+      213: -9090750913259871465
+    second: ElizOld_Walk_SS_29
+  - first:
+      213: -8550809964481636743
+    second: ElizOld_Walk_SS_30
+  - first:
+      213: -7245831224851066929
+    second: ElizOld_Walk_SS_31
+  - first:
+      213: 8748150478144549568
+    second: ElizOld_Walk_SS_32
+  - first:
+      213: 6906071122732735266
+    second: ElizOld_Walk_SS_33
+  - first:
+      213: 7293131760591915338
+    second: ElizOld_Walk_SS_34
+  - first:
+      213: 7073068482044774331
+    second: ElizOld_Walk_SS_35
+  - first:
+      213: -292877996181686593
+    second: ElizOld_Walk_SS_36
+  - first:
+      213: -4769639872466915487
+    second: ElizOld_Walk_SS_37
+  - first:
+      213: -8025220257318656594
+    second: ElizOld_Walk_SS_38
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1995
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ac3e1e763634d40800000000000000
+      internalID: 5567402862182648456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_1
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1995
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19e383e6961f7700800000000000000
+      internalID: 540175317625727263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_2
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1995
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad9c9b6ec1ddaf20800000000000000
+      internalID: 3435632775252450731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_3
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1995
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6aa770d1838c3fa0800000000000000
+      internalID: -5819632024898000273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_4
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1995
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be2187fe4ff8c5b0800000000000000
+      internalID: -5347743842877493576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_5
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 1995
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8c06bbfd5cf3a50800000000000000
+      internalID: 6503133951658346729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_6
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 1995
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e93e4e9195e368b0800000000000000
+      internalID: -5160028334447511068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_42
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 1995
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414df563ccad1e460800000000000000
+      internalID: 7269331844173124628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1596
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d25dc3948b350a0800000000000000
+      internalID: -6893963979881370227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_8
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1596
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db20542f67837d90800000000000000
+      internalID: -7101183276012786734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_9
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1596
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211b7cedbb1e1ba30800000000000000
+      internalID: 4229409722090369298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_10
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1596
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dc704238ffc1370800000000000000
+      internalID: 8294785552419900826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_11
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1600
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f48cb52481a12a10800000000000000
+      internalID: 1882963708158444789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_12
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 1596
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc0de133ab314b40800000000000000
+      internalID: 5422680998434114769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_13
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 1596
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be5ea4e63c0dd060800000000000000
+      internalID: 6979748427398536889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_43
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 1596
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4b1bfacbd9a8c40800000000000000
+      internalID: 5515394127395665067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1197
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40aa1184021ddcd00800000000000000
+      internalID: 994681029297023492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_15
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1197
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1298b3f3eedea2470800000000000000
+      internalID: 8370764464940353825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_16
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1197
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588656657d039fd30800000000000000
+      internalID: 4465654206940145797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_17
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1201
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b00036178b16560800000000000000
+      internalID: 7305322867703417618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_18
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1197
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bdb262c759a08c0800000000000000
+      internalID: -4032246155907966080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_19
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 1197
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d3278daee123b60800000000000000
+      internalID: 7724270304896367916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_20
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 1197
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0212a1cbe9aa630800000000000000
+      internalID: 3939135354818339055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_44
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 1201
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703b06dc2a6aa65c0800000000000000
+      internalID: -4221378482545839353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 798
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c49559097bde910800000000000000
+      internalID: 1868351252037454871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_22
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 798
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05bce5e955f05b780800000000000000
+      internalID: -8668005047401002160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_23
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 798
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5f0e909d735ad30800000000000000
+      internalID: 4442018012784031162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_24
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 798
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38dc35e887bffb40800000000000000
+      internalID: 5476297470495217723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_25
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 798
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d204ac39596a51650800000000000000
+      internalID: 6203047223132569645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_26
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 798
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f131e07c3ecbca8c0800000000000000
+      internalID: -3986603883646545121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_27
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 798
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bef268adca1bf650800000000000000
+      internalID: 6267632777011855033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 399
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bf7700a7afd37c0800000000000000
+      internalID: -4089837484681725047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_29
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 399
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b68227142ce3b9b0800000000000000
+      internalID: -5065445516110559563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_30
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 400
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f743c8110bbac24b0800000000000000
+      internalID: -5463803475210259329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_31
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 399
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83411bc28688c1cf0800000000000000
+      internalID: -280199095796034504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_32
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 399
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7136691953a27d180800000000000000
+      internalID: -9090750913259871465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_33
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 399
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976933534ab655980800000000000000
+      internalID: -8550809964481636743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_34
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 399
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf815c14e2a17b90800000000000000
+      internalID: -7245831224851066929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2387b928ca76970800000000000000
+      internalID: 8748150478144549568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_36
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 0
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b5110a81b47df50800000000000000
+      internalID: 6906071122732735266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_37
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 0
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49433212b8663560800000000000000
+      internalID: 7293131760591915338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_38
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 0
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb74a484f46982260800000000000000
+      internalID: 7073068482044774331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_39
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 0
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6ff03a30d7febf0800000000000000
+      internalID: -292877996181686593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_40
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 0
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16fe11f7ec5decdb0800000000000000
+      internalID: -4769639872466915487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElizOld_Walk_SS_41
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 0
+        width: 347
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5a04602b0b0a090800000000000000
+      internalID: -8025220257318656594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

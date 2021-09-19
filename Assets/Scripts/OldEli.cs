@@ -29,7 +29,7 @@ public class OldEli : MonoBehaviour
     {
         #region Build Platform
         //Make the guide when we press X
-        if (Input.GetKeyDown(KeyCode.X) && !isBuilding && canBuild)
+        if (Input.GetKeyDown(KeyCode.Z) && !isBuilding && canBuild)
         {
             isBuilding = true;
             prevFrame = true;
@@ -64,7 +64,7 @@ public class OldEli : MonoBehaviour
                 guide.transform.position += inputDir * 0.25f;
             }
             //Finalize building when we press X again
-            if (Input.GetKeyDown(KeyCode.X) && !prevFrame)
+            if (Input.GetKeyDown(KeyCode.Z) && !prevFrame)
             {
                 canBuild = false;
                 Destroy(Instantiate(platformPrefab, guide.transform.position, Quaternion.identity), 5f);
@@ -95,7 +95,7 @@ public class OldEli : MonoBehaviour
 
     void Flashbang()
     {
-        if (Input.GetKeyDown(KeyCode.Z) && flashCount > 0)
+        if (Input.GetKeyDown(KeyCode.X) && flashCount > 0)
         {
             Instantiate(flashbangPrefab, transform.position + Vector3.back * 0.2f, Quaternion.identity);
             flashCount--;
