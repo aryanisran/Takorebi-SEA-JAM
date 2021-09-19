@@ -97,4 +97,10 @@ public class OldEli : MonoBehaviour
             flashCount--;
         }
     }
+
+    public void PickupFlash()
+    {
+        flashCount++;
+        //Might have other ui stuff to add here later
+    }
 }
