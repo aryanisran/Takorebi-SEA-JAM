@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] public float moveSpeed, jumpForce, jumpTime, groundCheckRadius , groundCheckDistance;
 
     [SerializeField] GameObject blackScreen;
+    [SerializeField] GameObject keySprite;
 
     public bool isGrounded, isJumping;
     float maxJumpTime;
@@ -21,7 +22,6 @@ public class PlayerController : MonoBehaviour
 
     public int directionFacing;
     int prevDir;
-
     public int keysHolding;
     // Start is called before the first frame update
     void Start()
@@ -39,6 +39,11 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (keysHolding >= 1)
+        {
+            keySprite.SetActive(true);
+        }
+        else { keySprite.SetActive(false); }
         
         #region Movement
         if (!oldEli.isBuilding)
@@ -159,5 +164,23 @@ public class PlayerController : MonoBehaviour
     public void Respawn()
     {
 
+    }
+
+    public void SwitchForm()
+    {
+        if (oldEli.enabled == true)
+        {
+            oldEli.enabled = false;
+            buffEli.enabled = true;
+
+            // OLD ELI ANIMATION -> BUFF ELI ANIMATIONS
+        } 
+        else if (buffEli.enabled == true)
+        {
+            buffEli.enabled = false;
+            oldEli.enabled = true;
+
+            // BUFF ELI ANIMATIONS -> OLD ELI ANIMATIONS
+        }
     }
 }
