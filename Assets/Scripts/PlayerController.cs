@@ -60,7 +60,6 @@ public class PlayerController : MonoBehaviour
             if (!paused)
             {
                 pauseScreen.SetActive(true);
-                AudioManager.instance.Mute();
                 Time.timeScale = 0;
                 paused = true;
             }
@@ -75,7 +74,6 @@ public class PlayerController : MonoBehaviour
                 {
                     pauseScreen.SetActive(false);
                     Time.timeScale = 1;
-                    AudioManager.instance.Mute();
                     paused = false;
                 }
             }

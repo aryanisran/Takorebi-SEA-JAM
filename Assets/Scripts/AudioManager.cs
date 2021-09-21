@@ -126,4 +126,45 @@ public class AudioManager : MonoBehaviour
             muted = false;
         }
     }
+
+    public void ChangeMusicVol(System.Single vol)
+    {
+        sounds[0].source.volume = vol * sounds[0].volume;
+        sounds[1].source.volume = vol * sounds[1].volume;
+    }
+
+    public void ChangeEffectVol(System.Single vol)
+    {
+        for (int i = 2; i < sounds.Length; i++)
+        {
+            sounds[i].source.volume = vol * sounds[i].volume;
+        }
+    }
+
+    public void Pause(string name)
+    {
+        bool found = false;
+        //Look for desired sound in array
+        for (int i = 0; i < sounds.Length; i++)
+        {
+            if (sounds[i].name == name)
+            {
+                //Play desired sound if not muted
+                if (!muted)
+                {
+                    sounds[i].source.Pause();
+                }
+                else
+                {
+                    Debug.Log("Audio is muted");
+                }
+                found = true;
+            }
+        }
+
+        if (!found)
+        {
+            Debug.LogWarning("Sound: " + name + " could not be found (Stop)");
+        }
+    }
 }
